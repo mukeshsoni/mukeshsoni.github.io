@@ -6,6 +6,8 @@ permalink: /about/
 
 'Whatever gets the job done' stack developer.
 
-### This place
+### Programming languages
 
-Have started it as part of new year commitment.
+Primarily JavaScript coder but also dabble in clojure, php, java.
+Currently building frontend components using the awesome library reactjs.
+Hope to soon work in a place where i also get a taste of immutable data structures.
