@@ -8,8 +8,8 @@ permalink: /resume/
 
 > Currently a reactjs fanboy for writing frontend stuff.
 
----
-####Skills
+##Skills
+----------
 **Languages** - JavaScript, PHP, Java
 
 **Databases** - MySQL, MongoDB, redis
@@ -19,14 +19,16 @@ permalink: /resume/
 
 **Misc** (don't know how to categorize these) - nodejs, jquery, css
 
----
-####Companies worked in
+
+##Companies worked in
+-----------------------
 - <a href='https://www.infosys.com' target='_blank'>Infosys</a> - July 2006 to Oct 2011
 - <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to Oct 2013
 - Freelancing - Nov 2013 to Feb 2014
 - <a href='https://projectplace.com' target='_blank'>Projectplace</a> - June 2014 till date
 
-####Past work
+##Past work
+-------------
 
 At projectplace, played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 6 months. Also responsible for maintainance of frontend code of part of the site.
  
@@ -71,15 +73,16 @@ I was a business analyst for multiple multi million dollar project while i was w
  
 - I spent one year as part of a Data Quality solutions team, where I was associated with solution designing, development, and business consulting as data expert for several Fortune 500 organizations. I also wrote data cleansing scripts which gave me immense joy. The product we worked on is called [DataFlux](http://support.sas.com/software/products/dataflux/) (now taken over by SAS).
 
----
 
-####Education
+##Education
+--------------
 Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
----
 
-####Contact Details 
+##Contact Details
+-------------------
 Email: mukeshsoni [at] gmail [dot] com
+
 [Twitter](https://twitter.com/mukeshsoni "Find me on twitter!")
+
 [LinkedIn](http://www.linkedin.com/profile/view?id=12151475 "LinkedIn too, sigh :(")
- 
