@@ -14,7 +14,7 @@ permalink: /resume/
 
 **Databases** - MySQL, MongoDB, redis
 
-**Frameworks/Libraries** - <a href='http://facebook.github.io/react/' target='_blank'>reactjs</a>, <a href='http://expressjs.com/' target='_blank'>expressjs</a>, <a href='http://www.yiiframework.com/' target='_blank'>Yii</a>, <a href='http://angularjs.org/' target='_blank'>angularjs</a>
+**Frameworks/Libraries** - <a href='http://facebook.github.io/react/' target='_blank'>reactjs</a>, backbonejs, <a href='http://expressjs.com/' target='_blank'>expressjs</a>, <a href='http://www.yiiframework.com/' target='_blank'>Yii</a>, <a href='http://angularjs.org/' target='_blank'>angularjs</a>
 
 
 **Misc** (don't know how to categorize these) - nodejs, jquery, css
