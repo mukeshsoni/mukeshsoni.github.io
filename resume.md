@@ -1,7 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /resume/
+title: Resume
 ---
 
 > Been developing ui applications for the web for the last few years. JavaScript has been the primary language of use but interested in trying out a more functional language in future.
