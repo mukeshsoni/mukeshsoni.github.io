@@ -84,5 +84,5 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 Email: mukeshsoni [at] gmail [dot] com
 
 [Twitter](https://twitter.com/mukeshsoni "Find me on twitter!")
-
+[Github](https://github.com/mukeshsoni "Some stuff on github")
 [LinkedIn](http://www.linkedin.com/profile/view?id=12151475 "LinkedIn too, sigh :(")
