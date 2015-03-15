@@ -19,6 +19,6 @@ Hope the above reasons convince you that writing tests is good.
 
 Good, if you are convinced we will move on to the next phase. The HOW. The how part for javascript is actually trickier than other languages. But that is for the next article to discuss.
 
-The article on "Javascript Testing - the HOW (part 1)" is up.
+The article on [Javascript Testing - the HOW (part 1)](http://unstack.in/2013/07/09/javascript-unit-testing-the-how-part-I/) is up.
 
 Happy testing!
