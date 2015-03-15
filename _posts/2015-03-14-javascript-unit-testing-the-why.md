@@ -1,3 +1,8 @@
+---
+layout: post
+title: JavaScript Unit Testing - the WHY
+---
+
 When i say 'javascript testing' what i mean is 'automated javascript testing'.
 
 I love writing javascript apps. But for a long time i never felt the need to write tests for my javascript code. My testing consisted of continually refreshing the browser window. Now as i went back to those apps to make enhancements or fix bugs, i started to feel really uncomfortable. Everything seemed very tedious. I couldn't lay my finger on what the problem was for quite some time. And then it hit me - bam! I was irritated by the continuous manual testing i had to go through each time.
