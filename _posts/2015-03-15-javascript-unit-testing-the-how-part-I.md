@@ -1,3 +1,8 @@
+---
+layout: post
+title: JavaScript Unit Testing - the HOW - Part I
+---
+
 Testing javascript is a tricky affair. Mainly because you can't directly run your javascript written for a browser us something like 'js myjstest.js' in the command line. Surely there are testing frameworks and task managers like grunt which finally enable you to do exactly that, but it's a lot of plumbing to get going.
 The second reason it's tough to test javascript is because of it's async nature. Testing asynchronous functions is kind of a pain in the ass.
 
