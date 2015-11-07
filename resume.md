@@ -13,11 +13,12 @@ title: Resume
 
 **Databases** - MySQL, MongoDB, redis
 
-**Frameworks/Libraries** - <a href='http://facebook.github.io/react/' target='_blank'>reactjs</a>, backbonejs, <a href='http://expressjs.com/' target='_blank'>expressjs</a>, <a href='http://www.yiiframework.com/' target='_blank'>Yii</a>, <a href='http://angularjs.org/' target='_blank'>angularjs</a>
+**Frameworks/Libraries** - <a href='http://facebook.github.io/react/' target='_blank'>reactjs</a>, <a href='http://rackt.org/redux/' target='_blank'>redux</a>, backbonejs, <a href='http://expressjs.com/' target='_blank'>expressjs</a>, <a href='http://www.yiiframework.com/' target='_blank'>Yii</a>, <a href='http://angularjs.org/' target='_blank'>angularjs</a>
 
 
 **Misc** (don't know how to categorize these) - nodejs, jquery, css
 
+**Excited About** (things i am trying to learn/understand) ClojureScript, Clojure, grahpql, relay, immutablejs, Elm
 
 ##Companies worked in
 -----------------------
@@ -29,7 +30,7 @@ title: Resume
 ##Past work
 -------------
 
-At projectplace, played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 6 months. Also responsible for maintainance of frontend code of part of the site.
+At projectplace, played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 1 and a half years. Also responsible for maintainance of frontend code of part of the site.
  
 ---
 
