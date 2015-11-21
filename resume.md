@@ -19,7 +19,7 @@ title: Resume
 
 **Misc** (don't know how to categorize these) - nodejs, jquery, css
 
-**Excited About** (things i am trying to learn/understand) - Elm, ClojureScript, Clojure, grahpql, relay, immutablejs
+**Excited About** (things i am trying to learn/understand) - Elm, React Native, Clojure, ClojureScript, grahpql, relay, immutablejs
 
 ##Companies worked in
 -----------------------
