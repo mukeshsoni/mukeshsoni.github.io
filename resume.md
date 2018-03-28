@@ -9,6 +9,8 @@ title: Resume
 
 Also dabbling in react native and loving it. Mobile development experience of my dreams.
 
+I code in my free time too and host my personal work on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
+
 ## Skills
 
 **Languages** - JavaScript, html, css. Little bit of purescript, elm and Haskell
@@ -96,6 +98,6 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
 Email: mukeshsoni [at] gmail [dot] com
 
-[Twitter](https://twitter.com/mukeshsoni "Find me on twitter!")
 [Github](https://github.com/mukeshsoni "Some stuff on github")
+[Twitter](https://twitter.com/mukeshsoni "Find me on twitter!")
 [LinkedIn](http://www.linkedin.com/profile/view?id=12151475 "LinkedIn too, sigh :(")
