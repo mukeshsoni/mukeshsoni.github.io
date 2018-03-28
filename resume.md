@@ -9,7 +9,7 @@ title: Resume
 
 Also dabbling in react native and loving it. Mobile development experience of my dreams.
 
-##Skills
+## Skills
 
 **Languages** - JavaScript, html, css. Little bit of purescript, elm and Haskell
 
@@ -24,14 +24,14 @@ Build tools - webpack, systemjs, browserify, gulp, grunt
 
 **Excited About** (things i am trying to learn/understand) - purescript, Elm, React Native, Haskell, grahpql, relay, immutablejs
 
-##Companies worked in
+## Companies worked in
 
 *   <a href='https://projectplace.com' target='_blank'>Projectplace</a> - June 2014 till date
 *   <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to Oct 2013
 *   Freelancing - Nov 2013 to Feb 2014
 *   <a href='https://www.infosys.com' target='_blank'>Infosys</a> - July 2006 to Oct 2011
 
-## ##Past work
+## Past work
 
 At projectplace, played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.
 
@@ -88,11 +88,11 @@ I was a business analyst for multiple multi million dollar project while i was w
 
 *   I spent one year as part of a Data Quality solutions team, where I was associated with solution designing, development, and business consulting as data expert for several Fortune 500 organizations. I also wrote data cleansing scripts which gave me immense joy. The product we worked on is called [DataFlux](http://support.sas.com/software/products/dataflux/) (now taken over by SAS).
 
-## ##Education
+## Education
 
 Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
-## ##Contact Details
+## Contact Details
 
 Email: mukeshsoni [at] gmail [dot] com
 
