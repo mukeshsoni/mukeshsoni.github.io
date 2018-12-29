@@ -31,10 +31,9 @@ class Bio extends React.Component {
           <p>
             This is the personal blog of <strong>Mukesh Soni</strong>. I am a
             typical frontend engineer who's exhausted trying to keep up with all
-            the new technologies in the frontend world. I am good at HTML, CSS,
-            JavaScript, reactjs and family. I have also worked with nodejs but i
-            am definitely not an expert there. And i have been doing this stuff
-            since 2011.
+            the new technologies in the frontend world. I am good at JavaScript,
+            HTML, CSS, React (ReactJS) and family. I have worked with nodejs but
+            i am not an expert in it. I have been doing this stuff since 2011.
           </p>
         </div>
         <a
