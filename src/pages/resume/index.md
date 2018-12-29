@@ -1,14 +1,14 @@
-> I am good at HTML, CSS, JavaScript, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
+> I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
 
 > I transitioned into web development from a business analyst role in 2011 and have never looked back.
 
 I like the ideas behind functional programming and try to use them as much as possible in my own code. Immutability rules.
 
-Currently use reactjs and redux for writing complex frontend applications. Have decent knowledge about CSS, Haskell and elm too.
+Currently use reactjs and redux for writing complex frontend applications. Have decent knowledge about CSS, Haskell and Elm too.
 
 Have been getting into `react-native` of late and loving it. `react-native` might be the future of mobile development.
 
-Know a little bit of purescript, haskell and elm. You can ask me about monoids, functors, applicatives and (hold your breath) monads! If you are looking for a beginner haskell or purescript developer, who you are willing to train, please get in touch with me. I promise you will not regret.
+Know a little bit of PureScript, haskell and Elm. You can ask me about monoids, functors, applicatives and (hold your breath) monads! If you are looking for a beginner haskell or PureScript developer, who you are willing to train, please get in touch with me. I promise you will not regret.
 
 Developers still do a lot of manual work, even though their work automates someone else's work. The journey a developer takes when building software is far from the promised land they dream about when getting into software developement. I care deeply about this aspect of developer's life and try building tools to improve it. This i do in my free time.
 
@@ -16,7 +16,7 @@ Some of my personal work can be found on github - [https://github.com/mukeshsoni
 
 ## Skills
 
-**Languages** - JavaScript, html, css. Little bit of purescript, elm and Haskell
+**Languages** - JavaScript, HTML, CSS. Little bit of PureScript, Elm and Haskell
 
 **Databases** - MySQL, MongoDB, redis
 
@@ -27,16 +27,35 @@ Build tools - webpack, systemjs, browserify, gulp, grunt
 
 **Misc** (don't know how to categorize these) - nodejs, jquery, css
 
-**Excited About** (things i am trying to learn/understand) - purescript, Elm, React Native, Haskell, grahpql, relay, immutablejs
+**Excited About** (things i am trying to learn/understand) - PureScript, Elm, React Native, Haskell, grahpql, relay, immutablejs
 
 ## Companies worked in
 
-* <a href='https://projectplace.com' target='_blank'>Projectplace</a> - June 2014 till date
-* <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to Oct 2013
-* Freelancing - Nov 2013 to Feb 2014
-* <a href='https://www.infosys.com' target='_blank'>Infosys</a> - July 2006 to Oct 2011
+* <a href='https://saltside.se' target='_blank'>Saltside</a> - June 2018 till date
+* <a href='https://projectplace.com' target='_blank'>Projectplace</a> - June 2014 till March 2018
+* <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to October 2013
+* Freelancing - November 2013 to February 2014
+* <a href='https://www.infosys.com' target='_blank'>Infosys</a> - July 2006 to October 2011
 
 ## Past work
+
+At [Saltside](https://saltside.se/) (June 2018 - present), I have been working on architecting and rewriting the saltside sites (https://bikroy.com, https://ikman.lk, https://tonaton.com) as responsive Single page applications. Site performance is one of the key metrics when doing the rewrite. We also tried our best to keep the site as accessible as possible to people with disabilities.
+
+Using react as the backbone for the whole rewrite. The new sites will be responsive, i.e. work on both mobile and desktop with the same code base. We took a mobile first approach to implementing the designs.
+
+The site is server rendered, mainly for seo purposes.
+The focus of the rewrite is to have a codebase which is easier to maintain and results in a better mobile web experience for the user.
+
+Technologies used
+
+* HTML, CSS, Sass
+* TypeScript
+* React (ReactJS) (with server side rendering) for UI
+* redux for state management
+* node.js - for serving static content, server side rendering, and a proxy for API endpoints
+* Jest for unit testing
+
+---
 
 At projectplace (June 2014 - Mar 2018), played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.
 
@@ -50,7 +69,7 @@ At projectplace (June 2014 - Mar 2018), played a key role in getting the company
 
 * Moved the build system for our frontend code from gulp based tasks to webpack. We had multiple codebases for legacy system and a new system running parallely, which made the transition very challenging.
 
-* Brought in a number of functional programming ideas into the frontend community at projectplace. In my own journey to learn functional programming, i learnt haskell and dipped my toes into learning purescript and elm. In my personal projects, i try and use static typing and functional paradigms as much as possible (need based, of course).
+* Brought in a number of functional programming ideas into the frontend community at projectplace. In my own journey to learn functional programming, i learnt haskell and dipped my toes into learning PureScript and Elm. In my personal projects, i try and use static typing and functional paradigms as much as possible (need based, of course).
 
 ---
 
