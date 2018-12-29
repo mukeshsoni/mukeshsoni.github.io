@@ -1,8 +1,3 @@
----
-layout: page
-title: Resume
----
-
 > I am good at JavaScript, reactjs and family. I know and have worked in nodejs. Been doing web development for 7 years (since 2011) and loved every part of it.
 
 > I transitioned into web development from a business analyst role 7 years back and have never looked back.
