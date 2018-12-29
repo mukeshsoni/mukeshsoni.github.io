@@ -1,18 +1,18 @@
-> I am good at JavaScript, reactjs and family. I know and have worked in nodejs. Been doing web development for 7 years (since 2011) and loved every part of it.
+> I am good at HTML, CSS, JavaScript, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
 
-> I transitioned into web development from a business analyst role 7 years back and have never looked back.
+> I transitioned into web development from a business analyst role in 2011 and have never looked back.
 
 I like the ideas behind functional programming and try to use them as much as possible in my own code. Immutability rules.
-
-I also love looking into ways to make a developers life easier and try building tools to improve developer productivity. This i do in my free time.
 
 Currently use reactjs and redux for writing complex frontend applications. Have decent knowledge about CSS, Haskell and elm too.
 
 Have been getting into `react-native` of late and loving it. `react-native` might be the future of mobile development.
 
-Know a little bit of purescript, haskell and elm. You can ask me about functors 😜.
+Know a little bit of purescript, haskell and elm. You can ask me about monoids, functors, applicatives and (hold your breath) monads! If you are looking for a beginner haskell or purescript developer, who you are willing to train, please get in touch with me. I promise you will not regret.
 
-I sometimes code in my free time too and host my personal work on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
+Developers still do a lot of manual work, even though their work automates someone else's work. The journey a developer takes when building software is far from the promised land they dream about when getting into software developement. I care deeply about this aspect of developer's life and try building tools to improve it. This i do in my free time.
+
+Some of my personal work can be found on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
 
 ## Skills
 
@@ -101,6 +101,6 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
 Email: mukeshsoni [at] gmail [dot] com
 
-[Github](https://github.com/mukeshsoni "Some stuff on github")
-[Twitter](https://twitter.com/mukeshsoni "Find me on twitter!")
-[LinkedIn](http://www.linkedin.com/profile/view?id=12151475 "LinkedIn too, sigh :(")
+[Github](https://github.com/mukeshsoni 'Some stuff on github')
+[Twitter](https://twitter.com/mukeshsoni 'Find me on twitter!')
+[LinkedIn](http://www.linkedin.com/profile/view?id=12151475 'LinkedIn too, sigh :(')
