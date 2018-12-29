@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-782fc7d302a8b560bbb6.js",
-      "component---src-pages-index-js-782fc7d302a8b560bbb6.js.map"
+      "component---src-pages-index-js-77a7509b2e211091b51a.js",
+      "component---src-pages-index-js-77a7509b2e211091b51a.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -21,16 +21,16 @@
       "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
     ],
     "component---src-templates-blog-post-js": [
-      "component---src-templates-blog-post-js-e1f95ca863c19809f917.js",
-      "component---src-templates-blog-post-js-e1f95ca863c19809f917.js.map"
+      "component---src-templates-blog-post-js-1850db9cd6ac233b3279.js",
+      "component---src-templates-blog-post-js-1850db9cd6ac233b3279.js.map"
     ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-724e9a4ab804a78d32b6.js",
       "component---src-layouts-index-js-724e9a4ab804a78d32b6.js.map"
     ],
     "path---index": [
-      "path---index-b8fdfa6e03eaf38adb53.js",
-      "path---index-b8fdfa6e03eaf38adb53.js.map"
+      "path---index-86d5a94220118cc302fa.js",
+      "path---index-86d5a94220118cc302fa.js.map"
     ],
     "path---2013-07-08-javascript-unit-testing-the-why": [
       "path---2013-07-08-javascript-unit-testing-the-why-ae6824ad5655bf1d2fac.js",
@@ -59,8 +59,8 @@
       "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---resume": [
-      "path---resume-50270663e641cf142f4b.js",
-      "path---resume-50270663e641cf142f4b.js.map"
+      "path---resume-67513fb90e09ccd80906.js",
+      "path---resume-67513fb90e09ccd80906.js.map"
     ],
     "app": [
       "app-9af977f614f9de35010b.js",
@@ -77,8 +77,8 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---2015-01-25-getting-started-with-phonegap-on-osx": [
-      "path---2015-01-25-getting-started-with-phonegap-on-osx-3e28f78b570bc4a72145.js",
-      "path---2015-01-25-getting-started-with-phonegap-on-osx-3e28f78b570bc4a72145.js.map"
+      "path---2015-01-25-getting-started-with-phonegap-on-osx-736823be6ba4b02ca02a.js",
+      "path---2015-01-25-getting-started-with-phonegap-on-osx-736823be6ba4b02ca02a.js.map"
     ]
   }
 }
