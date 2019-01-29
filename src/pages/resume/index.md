@@ -32,14 +32,14 @@ Some of my personal work can be found on github - [https://github.com/mukeshsoni
 
 **Misc** (don't know how to categorize these) - nodejs, jquery
 
-**Excited About** - React Native, graphql, Haskell, PureScript, Elm 
+**Excited About** - React Native, GraphQL, Haskell, PureScript, Elm 
 
 ## Companies worked in
 
 * <a href='https://saltside.se' target='_blank'>Saltside</a> - June 2018 till date
 * <a href='https://projectplace.com' target='_blank'>Projectplace</a> - June 2014 till March 2018
-* <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to October 2013
 * Freelancing - November 2013 to February 2014
+* <a href='http://brizztv.com' target='_blank'>BrizzTV</a> - December 2011 to October 2013
 * <a href='https://www.infosys.com' target='_blank'>Infosys</a> - July 2006 to October 2011
 
 ## Past work
