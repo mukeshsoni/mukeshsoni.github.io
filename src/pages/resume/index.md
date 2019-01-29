@@ -16,18 +16,23 @@ Some of my personal work can be found on github - [https://github.com/mukeshsoni
 
 ## Skills
 
-**Languages** - JavaScript, HTML, CSS. Little bit of PureScript, Elm and Haskell
+**Languages+Frameworks** - 
+
+  Fluent - JavaScript, TypeScript, HTML, Reactjs, Redux
+  
+  Proficient - CSS, Node.js, Backbone.js
+
+  Conversant - React Native, expressjs, Haskell, PureScript, Elm, PHP, Yii
+
+**Testing** - BDD, jest, mocha, enzyme, react-testing-library, property based testing
+
+**Build tools** - webpack, systemjs, browserify, gulp, grunt
 
 **Databases** - MySQL, MongoDB, redis
 
-**Frameworks/Libraries** - reactjs, react native, redux and family, backbonejs, expressjs
+**Misc** (don't know how to categorize these) - nodejs, jquery
 
-**Testing** - BDD, jest, mocha, enzyme, property based testing
-Build tools - webpack, systemjs, browserify, gulp, grunt
-
-**Misc** (don't know how to categorize these) - nodejs, jquery, css
-
-**Excited About** (things i am trying to learn/understand) - PureScript, Elm, React Native, Haskell, grahpql, relay, immutablejs
+**Excited About** - React Native, graphql, Haskell, PureScript, Elm 
 
 ## Companies worked in
 
