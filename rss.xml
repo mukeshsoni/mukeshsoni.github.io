@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[unstack.in]]></title><description><![CDATA[Mostly just so that i have an independent presence on the interwebs]]></description><link>https://unstack.in</link><generator>RSS for Node</generator><lastBuildDate>Tue, 29 Jan 2019 05:09:24 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web…]]></description><link>https://unstack.in/resume/</link><guid isPermaLink="false">https://unstack.in/resume/</guid><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[unstack.in]]></title><description><![CDATA[Mostly just so that i have an independent presence on the interwebs]]></description><link>https://unstack.in</link><generator>RSS for Node</generator><lastBuildDate>Tue, 29 Jan 2019 05:16:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web…]]></description><link>https://unstack.in/resume/</link><guid isPermaLink="false">https://unstack.in/resume/</guid><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it’s still in it’s infancy.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;blockquote&gt;
@@ -19,7 +19,7 @@
 &lt;p&gt;&lt;strong&gt;Build tools&lt;/strong&gt; - webpack, systemjs, browserify, gulp, grunt&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Databases&lt;/strong&gt; - MySQL, MongoDB, redis&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Misc&lt;/strong&gt; (don’t know how to categorize these) - nodejs, jquery&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Excited About&lt;/strong&gt; - React Native, graphql, Haskell, PureScript, Elm &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Excited About&lt;/strong&gt; - React Native, GraphQL, Haskell, PureScript, Elm &lt;/p&gt;
 &lt;h2&gt;Companies worked in&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&apos;https://saltside.se&apos; target=&apos;_blank&apos;&gt;Saltside&lt;/a&gt; - June 2018 till date&lt;/li&gt;
