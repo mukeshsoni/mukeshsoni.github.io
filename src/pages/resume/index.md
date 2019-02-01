@@ -1,3 +1,7 @@
+### Mukesh Soni
+### mukeshsoni@gmail.com
+### Ph - 8792643041<br/><br/>
+
 > I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
 
 > I transitioned into web development from a business analyst role in 2011 and have never looked back.
@@ -125,6 +129,6 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
 Email: mukeshsoni [at] gmail [dot] com
 
-[Github](https://github.com/mukeshsoni 'Some stuff on github')
-[Twitter](https://twitter.com/mukeshsoni 'Find me on twitter!')
-[LinkedIn](http://www.linkedin.com/profile/view?id=12151475 'LinkedIn too, sigh :(')
+[Github - https://github.com/mukeshsoni](https://github.com/mukeshsoni 'Some stuff on github')<br/>
+[Twitter - https://twitter.com/mukeshsoni](https://twitter.com/mukeshsoni 'Find me on twitter!')<br/>
+[LinkedIn - https://www.linkedin.com/in/mksoni/](https://www.linkedin.com/in/mksoni/ 'LinkedIn too, sigh :(')
