@@ -1,6 +1,6 @@
-### Mukesh Soni
-### mukeshsoni@gmail.com
-### Ph - 8792643041<br/><br/>
+**Mukesh Soni**<br/>
+**mukeshsoni@gmail.com**<br/>
+**Ph - 8792643041**<br/>
 
 > I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
 
