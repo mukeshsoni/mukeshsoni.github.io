@@ -10,7 +10,7 @@ There are a lot of helpful libraries to tame the beast. But we will not start wi
 
 Lets start with writing a very simple unit test (testing isolated pieces of code) for a very simple function.
 
-```
+```javascript
 function add(x, y) {
  return x + y;
 }
@@ -20,7 +20,7 @@ How do we test the above. We want to verify that if we call add(3, 9), the funct
 
 One way we can do this is by putting the above function in a script tag in an html file, opening that file in a browser and then calling the 'add' function in the console.
 
-```
+```javascript
 function add(x, y) {
  return x + y;
 }
@@ -32,7 +32,7 @@ That is unit testing for you. The problem - it's not "automated".
 
 How can we automate it? The simplest way to do it would be to make the test calls in the same html and check their validity.
 
-```
+```javascript
 function add(x, y) {
  return x + y;
 }
@@ -59,11 +59,13 @@ But our test code is so verbose and non reusable that this might be the last tim
 Assertions -
 All we wanted to do above was something like "i am telling you, 2+5 is equal to 7. If not, ask the function writer to repeat 2nd standard". And this should happen is as less code as possible. Assertions allow you to do exactly that in just a single line. So you go something like -
 
-`assert(add(2,5)===7, &quot;learn your maths&quot;);`
+```javascript 
+assert(add(2,5) === 7, "learn your maths");
+```
 
 And the assert function should throw out pass and fail messages accordingly. Let's try writing one -
 
-```
+```javascript
 function assert(expression, message) {
  if(!expression) {
  return console.log(message || &quot;Test case failed&quot;); //if no fail message was passed by the function caller
@@ -75,7 +77,7 @@ return console.log(&quot;Test case passed&quot;);
 
 Now we can drop this function whenever we want to test stuff. In our case -
 
-```
+```javascript
 assert(add(2,5)===7, &quot;learn your maths&quot;);
 assert(add(-1,3)===2, &quot;learn your maths&quot;);
 assert(add(-1,-4)===-5, &quot;learn your maths&quot;);
@@ -83,7 +85,7 @@ assert(add(-1,-4)===-5, &quot;learn your maths&quot;);
 
 We can go ahead and enhance the assert function to tell us the number of test cases which passed -
 
-```
+```javascript
 var passedTestCount = 0;
 function assert(expression, message) {
  if(!expression) {
@@ -97,7 +99,7 @@ passedTestCount++;
 
 That is it. Not at all perfect but atleast we have a goto function for testing equality related stuff. In real world we will not print to the console in the assert function. Too much coupling there. The assert function will simply test whether the assertion is true or not. If not, raise an exception.
 
-```
+```javascript
 function assert(expression, message) {
  if(!expression) {
  throw new Error(message || &quot;Test case failed&quot;); //if no fail message was passed by the function caller
