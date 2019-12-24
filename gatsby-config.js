@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "unstack.in",
+    title: "Blog of Mukesh Soni",
     author: "Mukesh Soni",
-    description:
-      "Mostly just so that i have an independent presence on the interwebs",
+    description: "You might find something about Mukesh Soni here. Or not.",
     siteUrl: "https://unstack.in"
   },
   plugins: [
@@ -24,28 +23,15 @@ module.exports = {
               maxWidth: 590
             }
           },
-          {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`
-            }
-          },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
+          // Replaces “dumb” punctuation marks with “smart” punctuation marks using the retext-smartypants plugin.
           "gatsby-remark-smartypants"
         ]
       }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
-      }
-    },
-    `gatsby-plugin-feed`,
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-typography",
