@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[unstack.in]]></title><description><![CDATA[Mostly just so that i have an independent presence on the interwebs]]></description><link>https://unstack.in</link><generator>RSS for Node</generator><lastBuildDate>Sat, 02 Feb 2019 05:59:07 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Mukesh Soni 
- mukeshsoni@gmail.com 
- Ph - 8792643041 I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs…]]></description><link>https://unstack.in/resume/</link><guid isPermaLink="false">https://unstack.in/resume/</guid><content:encoded>&lt;p&gt;&lt;strong&gt;Mukesh Soni&lt;/strong&gt;&lt;br/&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[unstack.in]]></title><description><![CDATA[Mostly just so that i have an independent presence on the interwebs]]></description><link>https://unstack.in</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 24 Dec 2019 09:23:43 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[Mukesh Soni
+mukeshsoni@gmail.com
+Ph - 8792643041 I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i…]]></description><link>https://unstack.in/resume/</link><guid isPermaLink="false">https://unstack.in/resume/</guid><content:encoded>&lt;p&gt;&lt;strong&gt;Mukesh Soni&lt;/strong&gt;&lt;br/&gt;
 &lt;strong&gt;mukeshsoni@gmail.com&lt;/strong&gt;&lt;br/&gt;
 &lt;strong&gt;Ph - 8792643041&lt;/strong&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -50,24 +50,12 @@ The focus of the rewrite is to have a codebase which is easier to maintain and r
 &lt;hr&gt;
 &lt;p&gt;At projectplace (June 2014 - Mar 2018), played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Convinced the company to adopt reactjs in 2014 when reactjs was quite young. Did multiple prototypes and gave multiple presentations showcasing the developer productivity boost reactjs brought in.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site. It’s also used by the more general conversation tool on the site.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Rewrote the frontend for documents management system on projectplace.com from scratch, along with a colleague.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com. The tool is supposed to be used by Product owners or higher up in the management to setup the roadmap for products or services or product lines altogether.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Moved the build system for our frontend code from gulp based tasks to webpack. We had multiple codebases for legacy system and a new system running parallely, which made the transition very challenging.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Brought in a number of functional programming ideas into the frontend community at projectplace. In my own journey to learn functional programming, i learnt haskell and dipped my toes into learning PureScript and Elm. In my personal projects, i try and use static typing and functional paradigms as much as possible (need based, of course).&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;Convinced the company to adopt reactjs in 2014 when reactjs was quite young. Did multiple prototypes and gave multiple presentations showcasing the developer productivity boost reactjs brought in.&lt;/li&gt;
+&lt;li&gt;Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site. It’s also used by the more general conversation tool on the site.&lt;/li&gt;
+&lt;li&gt;Rewrote the frontend for documents management system on projectplace.com from scratch, along with a colleague.&lt;/li&gt;
+&lt;li&gt;Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com. The tool is supposed to be used by Product owners or higher up in the management to setup the roadmap for products or services or product lines altogether.&lt;/li&gt;
+&lt;li&gt;Moved the build system for our frontend code from gulp based tasks to webpack. We had multiple codebases for legacy system and a new system running parallely, which made the transition very challenging.&lt;/li&gt;
+&lt;li&gt;Brought in a number of functional programming ideas into the frontend community at projectplace. In my own journey to learn functional programming, i learnt haskell and dipped my toes into learning PureScript and Elm. In my personal projects, i try and use static typing and functional paradigms as much as possible (need based, of course).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;As a freelancer, i did a project for TP Vision from Nov 2013 - Feb 2014.&lt;/p&gt;
@@ -76,12 +64,8 @@ The focus of the rewrite is to have a codebase which is easier to maintain and r
 &lt;hr&gt;
 &lt;p&gt;In BrizzTV (Dec 2011 - Oct 2013), i was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.brizztv.mcube&quot;&gt;MCUBE android app&lt;/a&gt; - An app which recognizes expenses by reading incoming sms. Pulls the amount from the expense, auto categorizes it based on sms text and past mappings and files it under the corrent account number. Takes the biggest pain, i.e. opening an app and filing an expense, out of the equation. The auto categorization keeps getting better with each incoming sms.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Made a backend systems which pulls tweets from specific handles, hashtags, search strings from twitter (using twitter api), stores them in our system and pushes them to television channels (real time tweets on tv).&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.brizztv.mcube&quot;&gt;MCUBE android app&lt;/a&gt; - An app which recognizes expenses by reading incoming sms. Pulls the amount from the expense, auto categorizes it based on sms text and past mappings and files it under the corrent account number. Takes the biggest pain, i.e. opening an app and filing an expense, out of the equation. The auto categorization keeps getting better with each incoming sms.&lt;/li&gt;
+&lt;li&gt;Made a backend systems which pulls tweets from specific handles, hashtags, search strings from twitter (using twitter api), stores them in our system and pushes them to television channels (real time tweets on tv).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I also made the front end for specifying rules by which a tweet is connected to a particular channel as well as the front end to manage the handles, hash tags and search strings for pulling the tweets.&lt;/p&gt;
 &lt;p&gt;You can see the product live on airtel DTH on many channels.&lt;/p&gt;
@@ -101,12 +85,8 @@ I made a popcorn maker like UI but only for adding ads to youtube videos. User c
 &lt;hr&gt;
 &lt;p&gt;I was a business analyst for multiple multi million dollar project while i was working in Infosys.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;My last project was a 2 year long project for building an application for Apple to manage and automate the process of setting prices for products (across geographies and org structure) before the product launch. The system helped Apple manage and collaborate the process on fixing prices at a very low level (MPN level).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I spent one year as part of a Data Quality solutions team, where I was associated with solution designing, development, and business consulting as data expert for several Fortune 500 organizations. I also wrote data cleansing scripts which gave me immense joy. The product we worked on is called &lt;a href=&quot;http://support.sas.com/software/products/dataflux/&quot;&gt;DataFlux&lt;/a&gt; (now taken over by SAS).&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;My last project was a 2 year long project for building an application for Apple to manage and automate the process of setting prices for products (across geographies and org structure) before the product launch. The system helped Apple manage and collaborate the process on fixing prices at a very low level (MPN level).&lt;/li&gt;
+&lt;li&gt;I spent one year as part of a Data Quality solutions team, where I was associated with solution designing, development, and business consulting as data expert for several Fortune 500 organizations. I also wrote data cleansing scripts which gave me immense joy. The product we worked on is called &lt;a href=&quot;http://support.sas.com/software/products/dataflux/&quot;&gt;DataFlux&lt;/a&gt; (now taken over by SAS).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Education&lt;/h2&gt;
 &lt;p&gt;Bachelor of Engineering, Computer Science, NITK Surathkal (2004)&lt;/p&gt;
@@ -115,46 +95,28 @@ I made a popcorn maker like UI but only for adding ads to youtube videos. User c
 &lt;p&gt;&lt;a href=&quot;https://github.com/mukeshsoni&quot; title=&quot;Some stuff on github&quot;&gt;Github - https://github.com/mukeshsoni&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;https://twitter.com/mukeshsoni&quot; title=&quot;Find me on twitter!&quot;&gt;Twitter - https://twitter.com/mukeshsoni&lt;/a&gt;&lt;br/&gt;
 &lt;a href=&quot;https://www.linkedin.com/in/mksoni/&quot; title=&quot;LinkedIn too, sigh :(&quot;&gt;LinkedIn - https://www.linkedin.com/in/mksoni/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Getting started with phonegap on OSX]]></title><description><![CDATA[Install phonegap using npm Check if phonegap is install properly Want a quick overview of what you can do with phonegap command line tool…]]></description><link>https://unstack.in/2015-01-25-getting-started-with-phonegap-on-osx/</link><guid isPermaLink="false">https://unstack.in/2015-01-25-getting-started-with-phonegap-on-osx/</guid><pubDate>Mon, 05 Jan 2015 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Install phonegap using npm&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g phonegap&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;npm install -g phonegap&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Check if phonegap is install properly&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap -v&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap -v&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Want a quick overview of what you can do with phonegap command line tool?&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap -h&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap -h&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now lets create a new phonegap project. The phonegap command itself takes subcommands to do stuff. To create a new project we use&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create &amp;lt;folder&amp;gt; -n &amp;lt;appname&amp;gt; -i &amp;lt;packagename&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create &amp;lt;folder&amp;gt; -n &amp;lt;appname&amp;gt; -i &amp;lt;packagename&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;To see the options available while creating a new project, simply ask for help&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create help&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create help&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;This is true for getting help on any of the sub commands. Let’s create a new project -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create awesome_app -n AwesomeApp -i com.example.awesomeapp&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap create awesome_app -n AwesomeApp -i com.example.awesomeapp&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The folder awesome_app should be empty.&lt;/p&gt;
 &lt;p&gt;Now it’s time to see our newly created app in action. Let’s move to the directory and build the app for the required platform (android, iphone etc)&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd awesome_app
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;cd awesome_app
 phonegap build android
-phonegap install android&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+phonegap install android&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Phonegap has a single sub command which combines the last two sub commands (build and install) -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap run android&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap run android&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;_I am assuming here that you have android sdks installed in your system and have correctly setup the paths.
 _&lt;/p&gt;
 &lt;p&gt;Now you should have see the default phonegap application on the android simulator. You can connect an android phone and run the application on the device using this command -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap run android --device&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;phonegap run android --device&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Make sure that you have enabled the ‘USB Debugging’ mode in your phone developer settings. Google it you don’t know what i mean.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;How did it work?&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;When we did &lt;code class=&quot;language-text&quot;&gt;phonegap build android&lt;/code&gt;, phonegap took whatever was in the www directory and packaged that along with the required phonegap.js (or cordova.js) file and made an apk out of it. &lt;code class=&quot;language-text&quot;&gt;phonegap install android&lt;/code&gt; then installs the apk on the phone. On the phone, phonegap shows throws the html+js+css content into a webview which knows how to render it. So all you have to do know how to write html, javascript and css and you are good to go.&lt;/p&gt;
@@ -164,84 +126,70 @@ _&lt;/p&gt;
 The second reason it’s tough to test javascript is because of it’s async nature. Testing asynchronous functions is kind of a pain in the ass.&lt;/p&gt;
 &lt;p&gt;There are a lot of helpful libraries to tame the beast. But we will not start with any framework/library. We will start with the basics which would also allow us to better appreciate the frameworks.&lt;/p&gt;
 &lt;p&gt;Lets start with writing a very simple unit test (testing isolated pieces of code) for a very simple function.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function add(x, y) {
- return x + y;
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;How do we test the above. We want to verify that if we call add(3, 9), the function should return 12 and so on.&lt;/p&gt;
 &lt;p&gt;One way we can do this is by putting the above function in a script tag in an html file, opening that file in a browser and then calling the ‘add’ function in the console.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function add(x, y) {
- return x + y;
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8643/16196564474_63b66e88a3_o.png&quot; alt=&quot;Running the test in the browser&quot;&gt;&lt;/p&gt;
 &lt;p&gt;That is unit testing for you. The problem - it’s not “automated”.&lt;/p&gt;
 &lt;p&gt;How can we automate it? The simplest way to do it would be to make the test calls in the same html and check their validity.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function add(x, y) {
- return x + y;
-}
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;x&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; x &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; y&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-// start test code
-if(add(2,5) === 7) {
- console.log(&amp;amp;quot;adding 2 and 5 passed&amp;amp;quot;);
-} else {
- console.log(&amp;amp;quot;adding 2 and 5 failed&amp;amp;quot;);
-}
+&lt;span class=&quot;token comment&quot;&gt;// start test code&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;adding &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; and &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; passed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;adding &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; and &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt; failed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-if(add(-1,3) === 2) {
- console.log(&amp;amp;quot;adding -1 and 3 passed&amp;amp;quot;);
-} else {
- console.log(&amp;amp;quot;adding -1 and 3 failed&amp;amp;quot;);
-}
-// end test code&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;adding &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; and &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; passed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;adding &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; and &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; failed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;// end test code&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We can do one better by putting the actual code and the test code in external files and link them in our html file.&lt;/p&gt;
 &lt;p&gt;But our test code is so verbose and non reusable that this might be the last time we test anything. We even have to keep track of what we put in the console.log messages (e.g. a copy paste error would result in “adding 2 and 5 passed” twice).&lt;/p&gt;
 &lt;p&gt;Assertions -
 All we wanted to do above was something like “i am telling you, 2+5 is equal to 7. If not, ask the function writer to repeat 2nd standard”. And this should happen is as less code as possible. Assertions allow you to do exactly that in just a single line. So you go something like -&lt;/p&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;assert(add(2,5)===7, &amp;amp;quot;learn your maths&amp;amp;quot;);&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;learn your maths&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;And the assert function should throw out pass and fail messages accordingly. Let’s try writing one -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function assert(expression, message) {
- if(!expression) {
- return console.log(message || &amp;amp;quot;Test case failed&amp;amp;quot;); //if no fail message was passed by the function caller
- }
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Test &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; failed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//if no fail message was passed by the function caller&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-return console.log(&amp;amp;quot;Test case passed&amp;amp;quot;);
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Test &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; passed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Now we can drop this function whenever we want to test stuff. In our case -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;assert(add(2,5)===7, &amp;amp;quot;learn your maths&amp;amp;quot;);
-assert(add(-1,3)===2, &amp;amp;quot;learn your maths&amp;amp;quot;);
-assert(add(-1,-4)===-5, &amp;amp;quot;learn your maths&amp;amp;quot;);&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;learn your maths&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;learn your maths&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;learn your maths&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;We can go ahead and enhance the assert function to tell us the number of test cases which passed -&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;var passedTestCount = 0;
-function assert(expression, message) {
- if(!expression) {
- return console.log(message || &amp;amp;quot;Test case failed&amp;amp;quot;); //if no fail message was passed by the function caller
- }
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; passedTestCount &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Test &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; failed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//if no fail message was passed by the function caller&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-passedTestCount++;
- return console.log(&amp;amp;quot;Test case passed&amp;amp;quot;);
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+passedTestCount&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Test &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; passed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;That is it. Not at all perfect but atleast we have a goto function for testing equality related stuff. In real world we will not print to the console in the assert function. Too much coupling there. The assert function will simply test whether the assertion is true or not. If not, raise an exception.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;function assert(expression, message) {
- if(!expression) {
- throw new Error(message || &amp;amp;quot;Test case failed&amp;amp;quot;); //if no fail message was passed by the function caller
- }
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;javascript&quot;&gt;&lt;pre class=&quot;language-javascript&quot;&gt;&lt;code class=&quot;language-javascript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;assert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; message&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;expression&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;throw&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;Test &lt;span class=&quot;token keyword&quot;&gt;case&lt;/span&gt; failed&lt;span class=&quot;token operator&quot;&gt;&amp;amp;&lt;/span&gt;quot&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;//if no fail message was passed by the function caller&lt;/span&gt;
+ &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-passedTestCount++;
- return true;
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+passedTestCount&lt;span class=&quot;token operator&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+ &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;If we want to be purist, we should also remove passedTestCount++ from assertion function. There is no reason for assertion function to deal with correct/incorrect assertion counts. But i will leave that to you.&lt;/p&gt;
 &lt;p&gt;In the next article we will try to see how we can enhance our little testing framework (ok, just one function for now) to handle more complicated cases. Till then, adios!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[JavaScript Unit Testing - the WHY]]></title><description><![CDATA[When i say ‘javascript testing’ what i mean is ‘automated javascript testing’. I love writing javascript apps. But for a long time i never…]]></description><link>https://unstack.in/2013-07-08-javascript-unit-testing-the-why/</link><guid isPermaLink="false">https://unstack.in/2013-07-08-javascript-unit-testing-the-why/</guid><pubDate>Mon, 08 Jul 2013 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;When i say ‘javascript testing’ what i mean is ‘automated javascript testing’.&lt;/p&gt;
 &lt;p&gt;I love writing javascript apps. But for a long time i never felt the need to write tests for my javascript code. My testing consisted of continually refreshing the browser window. Now as i went back to those apps to make enhancements or fix bugs, i started to feel really uncomfortable. Everything seemed very tedious. I couldn’t lay my finger on what the problem was for quite some time. And then it hit me - bam! I was irritated by the continuous manual testing i had to go through each time.&lt;/p&gt;
