@@ -2,21 +2,21 @@
 **mukeshsoni@gmail.com**<br/>
 **Ph - 8792643041**<br/>
 
-> I am good at JavaScript, HTML, CSS, reactjs and family. I have also worked in nodejs but i am not a nodejs expert. I have been doing web development since 2011 and loved most of the journey. I am super excited about the future of web development. I think it's still in it's infancy.
+> I am good at JavaScript, TypeScript, HTML, CSS, reactjs and family. I have also worked in nodejs. I have been doing web development since 2011 and loved most of the journey. I am still super excited about the future of web development.
 
-> I transitioned into web development from a business analyst role in 2011 and have never looked back.
+I always keep performance in mind when building websites. It's become harder and
+harder to keep a tab on site performance with an explosion of easy to use third
+party libraries. It's never been easier to build awesome sites. But it's also
+never been easier to build a slow one.
 
-I like the ideas behind functional programming and try to use them as much as possible in my own code. Immutability rules.
+My technology of choice when building sites is html, css, javascript, typescript, reactjs, and nodejs.
 
-Currently use reactjs and redux for writing complex frontend applications. Have decent knowledge about CSS, Haskell and Elm too.
+I like the ideas behind functional programming and try to use them as much as possible in my own code. Immutability rules. I have dabbled a bit in purely functional programming languages like Elm and Haskell.
 
-Have been getting into `react-native` of late and loving it. `react-native` might be the future of mobile development.
+Would love to like a little rust because of the novel concepts it brings to
+programming.
 
-Know a little bit of PureScript, haskell and Elm. You can ask me about monoids, functors, applicatives and (hold your breath) monads! If you are looking for a beginner haskell or PureScript developer, who you are willing to train, please get in touch with me. I promise you will not regret.
-
-Developers still do a lot of manual work, even though their work automates someone else's work. The journey a developer takes when building software is far from the promised land they dream about when getting into software developement. I care deeply about this aspect of developer's life and try building tools to improve it. This i do in my free time.
-
-Some of my personal work can be found on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
+I like writing open source code code in my free time. Some of my personal work can be found on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
 
 ## Skills
 
@@ -48,25 +48,45 @@ Some of my personal work can be found on github - [https://github.com/mukeshsoni
 
 ## Past work
 
-At [Saltside](https://saltside.se/) (June 2018 - present), I have been working on architecting and rewriting the saltside sites (https://bikroy.com, https://ikman.lk, https://tonaton.com) as responsive Single page applications. Site performance is one of the key metrics when doing the rewrite. We also tried our best to keep the site as accessible as possible to people with disabilities.
+#### Saltside (June 2018 - present)
+At [Saltside](https://saltside.se/), I worked on architecting and rewriting the saltside sites (https://bikroy.com, https://ikman.lk, https://tonaton.com) as responsive Single Page Applications. I was responsible to analyze the business requirements and make the initial technology decisions for frontend. Site performance was one of the key requirements when doing the rewrite. We also tried our best to keep the site as accessible as possible to people with disabilities.
 
-Using react as the backbone for the whole rewrite. The new sites will be responsive, i.e. work on both mobile and desktop with the same code base. We took a mobile first approach to implementing the designs.
+The main challenges involved in the rewrite were
+1. Writing code which worked for all three markets.
+2. Server rendering the react code with good code splitting. Server rendering
+   was a strict requirement because of SEO.
+3. Having small JavaScript bundle sizes as our users were mostly in
+   countries with low bandwidth internet connections.
+4. The sites had to work responsively across mobile and desktop. Keeping the
+   bundle size small while working seamlessly on mobile and desktop very
+   challenging.
+5. The site should use semantic html to be accessible to people with
+   disabilities.
 
-The site is server rendered, mainly for seo purposes.
-The focus of the rewrite is to have a codebase which is easier to maintain and results in a better mobile web experience for the user.
+I was also responsible for mentoring the team members in writing idiomatic html,
+css, javascript and typescript. We built our own component library from scratch. This gave
+us full control over the components. We could keep the components small since
+they were built for our specific requirements. We still made the code generic
+enough for extensibility.
+
+I was also responsible for onboarding new members to the new code base.
+Onboarding new developers gave me key insights into the complexity of modern
+frontend development.
 
 Technologies used
 
 * HTML, CSS, Sass
 * TypeScript
-* React (ReactJS) (with server side rendering) for UI
+* React (ReactJS) and preactjs (with server side rendering) for UI
 * redux for state management
 * node.js - for serving static content, server side rendering, and a proxy for API endpoints
 * Jest for unit testing
+* Cypress for functional testing
 
 ---
 
-At projectplace (June 2014 - Mar 2018), played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.
+#### Projectplace (June 2014 - March 2018)
+At projectplace, I played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.
 
 * Convinced the company to adopt reactjs in 2014 when reactjs was quite young. Did multiple prototypes and gave multiple presentations showcasing the developer productivity boost reactjs brought in.
 
@@ -82,6 +102,7 @@ At projectplace (June 2014 - Mar 2018), played a key role in getting the company
 
 ---
 
+#### Freelancing
 As a freelancer, i did a project for TP Vision from Nov 2013 - Feb 2014.
 
 Built an authentication/reporting server for android based smart TVs (by TPVision). The smart tvs in question would be able to enjoy other services in the tv only after authenticating with a central server. This server is designed to handle upto 10-20 million television authentications in a day. The authentication is digest based and sends across a 11kb payload as response.
@@ -90,7 +111,8 @@ The server handles 600 requests per second running on a 4 core i7 machine with 2
 
 ---
 
-In BrizzTV (Dec 2011 - Oct 2013), i was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -
+#### BrizzTV (Dec 2011 - Oct 2013) 
+In BrizzTV, i was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -
 
 * [MCUBE android app](https://play.google.com/store/apps/details?id=com.brizztv.mcube) - An app which recognizes expenses by reading incoming sms. Pulls the amount from the expense, auto categorizes it based on sms text and past mappings and files it under the corrent account number. Takes the biggest pain, i.e. opening an app and filing an expense, out of the equation. The auto categorization keeps getting better with each incoming sms.
 
@@ -98,12 +120,10 @@ In BrizzTV (Dec 2011 - Oct 2013), i was simultaneously working on more than one 
 
 I also made the front end for specifying rules by which a tweet is connected to a particular channel as well as the front end to manage the handles, hash tags and search strings for pulling the tweets.
 
-You can see the product live on airtel DTH on many channels.
-
 * Ad overlay for youtube videos
   I made a popcorn maker like UI but only for adding ads to youtube videos. User could tag photo(s) or text to particular part of the scene and specify the duration for which the ad was to be shown. It's like a video tagger but for youtube only.
 
-Made a corresponding chrome extension which allows a user to view relevant ad overlays on youtube videos. The idea was to show ads relevant to what someone is wearing/holding in that particular scene.
+Made a corresponding chrome extension which allows a user to view relevant ad overlays on youtube videos.
 
 * Made an intuitive ad inventory management and scheduling system (both UI and backend) for ad publishers.
 
@@ -115,7 +135,8 @@ I made the system to maintain the ads, their publisher details, scheduling detai
 
 ---
 
-I was a business analyst for multiple multi million dollar project while i was working in Infosys.
+#### Infosys (June 2006 - October 2011)
+I was a business analyst for multiple multi million dollar project while i was working at Infosys.
 
 * My last project was a 2 year long project for building an application for Apple to manage and automate the process of setting prices for products (across geographies and org structure) before the product launch. The system helped Apple manage and collaborate the process on fixing prices at a very low level (MPN level).
 
@@ -127,8 +148,9 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 
 ## Contact Details
 
-Email: mukeshsoni [at] gmail [dot] com
+Email: mukeshsoni@gmail.com
 
-[Github - https://github.com/mukeshsoni](https://github.com/mukeshsoni 'Some stuff on github')<br/>
+[Github - https://github.com/mukeshsoni](https://github.com/mukeshsoni 'My github profile')<br/>
 [Twitter - https://twitter.com/mukeshsoni](https://twitter.com/mukeshsoni 'Find me on twitter!')<br/>
-[LinkedIn - https://www.linkedin.com/in/mksoni/](https://www.linkedin.com/in/mksoni/ 'LinkedIn too, sigh :(')
+[LinkedIn - https://www.linkedin.com/in/mksoni/](https://www.linkedin.com/in/mksoni/ 'LinkedIn')<br />
+[stackoverflow - https://stackoverflow.com/users/821720/mukesh-soni](https://stackoverflow.com/users/821720/mukesh-soni 'My stack overflow profile')
