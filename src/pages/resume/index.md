@@ -123,8 +123,6 @@ I also made the front end for specifying rules by which a tweet is connected to 
 * Ad overlay for youtube videos
   I made a popcorn maker like UI but only for adding ads to youtube videos. User could tag photo(s) or text to particular part of the scene and specify the duration for which the ad was to be shown. It's like a video tagger but for youtube only.
 
-Made a corresponding chrome extension which allows a user to view relevant ad overlays on youtube videos.
-
 * Made an intuitive ad inventory management and scheduling system (both UI and backend) for ad publishers.
 
 The ad inventory was for showing ads on custom movie channels. The idea is to show free movies on television but with permanent ads on the side and bottom. To enjoy ad free movie, subscription is required.
@@ -138,9 +136,9 @@ I made the system to maintain the ads, their publisher details, scheduling detai
 #### Infosys (June 2006 - October 2011)
 I was a business analyst for multiple multi million dollar project while i was working at Infosys.
 
-* My last project was a 2 year long project for building an application for Apple to manage and automate the process of setting prices for products (across geographies and org structure) before the product launch. The system helped Apple manage and collaborate the process on fixing prices at a very low level (MPN level).
+* My last project was a 2 year long project for building an application for Apple to manage and automate the process of setting prices for products before the product launch.
 
-* I spent one year as part of a Data Quality solutions team, where I was associated with solution designing, development, and business consulting as data expert for several Fortune 500 organizations. I also wrote data cleansing scripts which gave me immense joy. The product we worked on is called [DataFlux](http://support.sas.com/software/products/dataflux/) (now taken over by SAS).
+* I spent one year as part of a Data Quality solutions team. I wrote data cleansing scripts which gave me immense joy.
 
 ## Education
 
@@ -151,6 +149,6 @@ Bachelor of Engineering, Computer Science, NITK Surathkal (2004)
 Email: mukeshsoni@gmail.com
 
 [Github - https://github.com/mukeshsoni](https://github.com/mukeshsoni 'My github profile')<br/>
-[Twitter - https://twitter.com/mukeshsoni](https://twitter.com/mukeshsoni 'Find me on twitter!')<br/>
 [LinkedIn - https://www.linkedin.com/in/mksoni/](https://www.linkedin.com/in/mksoni/ 'LinkedIn')<br />
 [stackoverflow - https://stackoverflow.com/users/821720/mukesh-soni](https://stackoverflow.com/users/821720/mukesh-soni 'My stack overflow profile')
+[Twitter - https://twitter.com/mukeshsoni](https://twitter.com/mukeshsoni 'Find me on twitter!')<br/>
