@@ -28,7 +28,7 @@ I like writing open source code code in my free time. Some of my personal work c
 
   Conversant - React Native, expressjs, Haskell, PureScript, Elm, PHP, Yii
 
-**Testing** - BDD, jest, mocha, enzyme, react-testing-library, property based testing
+**Testing** - BDD, jest, mocha, enzyme, react-testing-library, cypress, property based testing
 
 **Build tools** - webpack, systemjs, browserify, gulp, grunt
 
