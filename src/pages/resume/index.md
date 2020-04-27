@@ -81,5 +81,5 @@ Email: mukeshsoni@gmail.com
 
 [Github - https://github.com/mukeshsoni](https://github.com/mukeshsoni 'My github profile')<br/>
 [LinkedIn - https://www.linkedin.com/in/mksoni/](https://www.linkedin.com/in/mksoni/ 'LinkedIn')<br />
-[stackoverflow - https://stackoverflow.com/users/821720/mukesh-soni](https://stackoverflow.com/users/821720/mukesh-soni 'My stack overflow profile')
+[stackoverflow - https://stackoverflow.com/users/821720/mukesh-soni](https://stackoverflow.com/users/821720/mukesh-soni 'My stack overflow profile')<br />
 [Twitter - https://twitter.com/mukeshsoni](https://twitter.com/mukeshsoni 'Find me on twitter!')<br/>
