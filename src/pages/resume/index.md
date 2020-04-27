@@ -25,26 +25,25 @@ The main challenges involved in the rewrite were
 4. The sites had to work responsively across mobile and desktop. Keeping the bundle size small while working seamlessly on mobile and desktop very challenging.
 5. The site should use semantic html to be accessible to people with disabilities.
 
-I was also responsible for mentoring the team members in writing idiomatic html, css, javascript and typescript. We built our own component library from scratch. 
-
-I was also responsible for onboarding new members to the new code base. Onboarding new developers gave me key insights into the complexity of modern frontend development.
+I was also responsible for mentoring the team members in writing maintainable
+and performant code as well as for onboarding of new members to the new code base.
 
 Technologies used - HTML, CSS, Sass, TypeScript, ReactJS, preactjs, redux, node.js, Jest, Cypress
 
 ---
 
 #### Projectplace (June 2014 - March 2018)
-At projectplace, I played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years. Also responsible for maintainance of frontend code of part of the site.
+At projectplace, I played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years.
 
 * Convinced the company to adopt reactjs in 2014 when reactjs was quite young. Did multiple prototypes and gave multiple presentations showcasing the developer productivity boost reactjs brought in.
 
-* Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site. It's also used by the more general conversation tool on the site.
+* Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site.
 
-* Rewrote the frontend for documents management system on projectplace.com from scratch, along with a colleague.
+* Rewrote the frontend for documents management system on projectplace.com from scratch.
 
-* Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com. The tool is supposed to be used by Product owners or higher up in the management to setup the roadmap for products or services or product lines altogether.
+* Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com.
 
-* Moved the build system for our frontend code from gulp based tasks to webpack. We had multiple codebases for legacy system and a new system running parallely, which made the transition very challenging.
+* Moved the build system for our frontend code from gulp based tasks to webpack.
 
 * Brought in a number of functional programming ideas into the frontend community at projectplace.
 
@@ -62,7 +61,7 @@ The server handles 600 requests per second running on a 4 core i7 machine with 2
 #### BrizzTV (Dec 2011 - Oct 2013) 
 In BrizzTV, i was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -
 
-* [MCUBE android app](https://play.google.com/store/apps/details?id=com.brizztv.mcube) - An app which recognizes expenses by reading incoming sms. Pulls the amount from the expense, auto categorizes it based on sms text and past mappings and files it under the corrent account number. Takes the biggest pain, i.e. opening an app and filing an expense, out of the equation. The auto categorization keeps getting better with each incoming sms.
+* [MCUBE android app](https://play.google.com/store/apps/details?id=com.brizztv.mcube) - An app for organizing your expenses by reading bank transaction smses.
 
 * Made a backend systems which pulls tweets from specific handles, hashtags, search strings from twitter (using twitter api), stores them in our system and pushes them to television channels (real time tweets on tv).
 
