@@ -12,62 +12,54 @@ I like the ideas behind functional programming and try to use them as much as po
 
 I like writing open source code code in my free time. Some of my personal work can be found on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
 
+#### Work experience
 
-## Past work
-
-#### Saltside (June 2018 - present)
-At [Saltside](https://saltside.se/), I worked on architecting and rewriting the saltside sites (https://bikroy.com, https://ikman.lk, https://tonaton.com) as responsive Single Page Applications. I was responsible to analyze the business requirements and make the initial technology decisions for frontend.
-
-The main challenges involved in the rewrite were
-1. Writing code which worked for all three markets.
-2. Server rendering the react code with good code splitting. Server rendering was a strict requirement because of SEO.
-3. Having small JavaScript bundle sizes as our users were mostly in countries with low bandwidth internet connections.
-4. The sites had to work responsively across mobile and desktop. Keeping the bundle size small while working seamlessly on mobile and desktop very challenging.
-5. The site should use semantic html to be accessible to people with disabilities.
-
-I was also responsible for mentoring the team members in writing maintainable
-and performant code as well as for onboarding of new members to the new code base.
+#### Saltside (June 2018 - April 2020) - Lead web developer
+- Lead the team which rewrote Saltside classified frontend/sites from nodejs
+  template based rendering to single page application using reactjs
+- Analyzed the business requirements and made the initial technology decisions for frontend
+- Mentored the team members in writing maintainable and performant code
+- Responsible for onboarding of new members to the new code base
 
 Technologies used - HTML, CSS, Sass, TypeScript, ReactJS, preactjs, redux, node.js, Jest, Cypress
 
 ---
 
-#### Projectplace (June 2014 - March 2018)
-At projectplace, I played a key role in getting the company to move from backbone views to Reactjs to be used for the view part. Have developed a number of reactjs components of various complexities over the past 4 years.
-
-* Convinced the company to adopt reactjs in 2014 when reactjs was quite young. Did multiple prototypes and gave multiple presentations showcasing the developer productivity boost reactjs brought in.
-
-* Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site.
-
-* Rewrote the frontend for documents management system on projectplace.com from scratch.
-
-* Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com.
-
-* Moved the build system for our frontend code from gulp based tasks to webpack.
-
-* Brought in a number of functional programming ideas into the frontend community at projectplace.
+#### Projectplace (June 2014 - March 2018) - Frontend engineer
+- Rewrote the frontend for the commenting system used on projectplace.com from scratch. The commenting system is now used on every tool on the site.
+- Rewrote the frontend for documents management system on projectplace.com from scratch.
+- Wrote the frontend for a new tool, called roadmap, (along with a colleague) on projectplace.com.
+- Moved the build system for our frontend code from gulp based tasks to webpack.
+- Brought in a number of functional programming ideas into the frontend community at projectplace.
 
 ---
 
-#### Freelance web developer
-As a freelancer web developer, i did a project for TP Vision from Nov 2013 - Feb 2014.
+#### Freelance web developer (Nov 2013 - Feb 2014) - full stack developer
+As a freelancer web developer, I did a project for TP Vision from Nov 2013 - Feb 2014.
 
-Built an authentication/reporting server for android based smart TVs (by TPVision). The smart tvs in question would be able to enjoy other services in the tv only after authenticating with a central server. This server is designed to handle upto 10-20 million television authentications in a day. The authentication is digest based and sends across a 11kb payload as response.
+- Built an authentication/reporting server for android based smart TVs (by TPVision)
+This server is designed to handle upto 10-20 million television authentications in a day. The authentication is digest based and sends across a 11kb payload as response.
 
-The server handles 600 requests per second running on a 4 core i7 machine with 2 gb RAM.
+- The server handles 600 requests per second running on a 4 core i7 machine with 2 gb RAM.
 
 ---
 
-#### BrizzTV (Dec 2011 - Oct 2013) 
-In BrizzTV, i was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -
+#### BrizzTV (Dec 2011 - Oct 2013) - Web developer
+At BrizzTV, I was simultaneously working on more than one project most of the time. Some of the noteworthy ones are mentioned below -
 
-* [MCUBE android app](https://play.google.com/store/apps/details?id=com.brizztv.mcube) - An app for organizing your expenses by reading bank transaction smses.
+- [MCUBE android app](https://play.google.com/store/apps/details?id=com.brizztv.mcube) - An app for organizing your expenses by reading bank transaction smses.
 
-* Made a backend systems which pulls tweets from specific handles, hashtags, search strings from twitter (using twitter api), stores them in our system and pushes them to television channels (real time tweets on tv).
+- Made a backend system which pulls tweets from specific handles, hashtags, search strings from twitter (using twitter api), stores them in our system and pushes them to television channels (real time tweets on tv).
 
-* Made an intuitive ad inventory management and scheduling system (both UI and backend) for ad publishers.
+- Made an intuitive ad inventory management and scheduling system (both UI and backend) for ad publishers.
 
-* Made the interface and backend to push content directly from browser to any tv channel. The push system is realtime (about 5 seconds delay).
+- Made the interface and backend to push content directly from browser to any tv channel. The push system is real time (about 5 seconds delay).
+
+#### INFOSYS (JUN 2006 - SEP 2011) - BUSINESS ANALYST
+- Worked as a business analyst and a business consultant for requirement gathering for various multi million dollar projects.
+- Worked on projects for companies like Microsoft and Apple technologies. Worked on one of the biggest internal sales applications inside Apple.
+- Worked on a team which created a new service inside Infosys for data cleansing
+  and other ETL tasks
 
 
 ## Education
