@@ -1,8 +1,12 @@
 ---
 title: What is nodejs?
 date: "2013-05-28"
-slug: "2012-06-11-customizing-bootstrap-from-twitter"
+slug: "2013-05-28-what-is-nodejs"
 ---
+
+<svelte:head>
+	<title>What is nodejs?</title>
+</svelte:head>
 
 I was confused for a long time about where to categorize nodejs.
 

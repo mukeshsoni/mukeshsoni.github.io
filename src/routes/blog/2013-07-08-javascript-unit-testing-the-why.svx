@@ -1,8 +1,12 @@
 ---
 title: JavaScript Unit Testing - the WHY
 date: "2013-07-08"
-slug: "2012-06-11-customizing-bootstrap-from-twitter"
+slug: "2013-07-08-javascript-unit-testing-the-why"
 ---
+
+<svelte:head>
+	<title>JavaScript Unit Testing - the WHY</title>
+</svelte:head>
 
 When i say 'javascript testing' what i mean is 'automated javascript testing'.
 

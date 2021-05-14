@@ -1,8 +1,12 @@
 ---
 title: Getting started with phonegap on OSX
 date: "2015-01-05"
-slug: "2012-06-11-customizing-bootstrap-from-twitter"
+slug: "2015-01-25-getting-started-with-phonegap-on-osx"
 ---
+
+<svelte:head>
+	<title>Getting started with phonegap on OSX</title>
+</svelte:head>
 
 Install phonegap using npm
 
