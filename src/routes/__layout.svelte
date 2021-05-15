@@ -15,15 +15,9 @@
 </script>
 
 <main style="max-width: 42rem;margin:auto">
-	{#if onRoot}
-		<h1 style="font-size: 4rem; font-weight: 900;">
-			<a class="header-link" href="/"> unstack.in </a>
-		</h1>
-	{:else}
-		<h1 style="font-size: 1.3rem; font-weight: 700;">
-			<a class="header-link" href="/"> unstack.in </a>
-		</h1>
-	{/if}
+	<h1 class={onRoot ? 'logo-big' : 'logo-small'}>
+		<a class="header-link" href="/"> unstack.in </a>
+	</h1>
 
 	<slot />
 </main>
@@ -33,5 +27,14 @@
 		color: inherit;
 		box-shadow: none;
 		text-decoration: none;
+	}
+	.logo-big {
+		font-size: 4rem;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.logo-small {
+		font-size: 1.5rem;
+		transition: all 0.2s ease-in-out;
 	}
 </style>
