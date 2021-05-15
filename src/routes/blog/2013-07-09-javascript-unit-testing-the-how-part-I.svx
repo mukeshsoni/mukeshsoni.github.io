@@ -10,6 +10,7 @@ slug: "2013-07-09-javascript-unit-testing-the-how-part-I"
 
 <script>
 import PostHeader from '$lib/PostHeader.svelte'
+import consoleAddImage from './_console_add.jpeg';
 </script>
 
 <PostHeader {title} {date} />
@@ -37,7 +38,7 @@ function add(x, y) {
 }
 ```
 
-![Running the test in the browser](https://farm9.staticflickr.com/8643/16196564474_63b66e88a3_o.png)
+![Running the test in the browser]({consoleAddImage})
 
 That is unit testing for you. The problem - it's not "automated".
 
