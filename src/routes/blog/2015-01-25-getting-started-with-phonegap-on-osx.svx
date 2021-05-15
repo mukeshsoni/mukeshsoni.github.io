@@ -8,6 +8,12 @@ slug: "2015-01-25-getting-started-with-phonegap-on-osx"
 	<title>Getting started with phonegap on OSX</title>
 </svelte:head>
 
+<script>
+import PostHeader from '$lib/PostHeader.svelte'
+</script>
+
+<PostHeader {title} {date} />
+
 Install phonegap using npm
 
 ```

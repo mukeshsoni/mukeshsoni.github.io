@@ -8,6 +8,12 @@ slug: "2012-06-11-customizing-bootstrap-from-twitter"
 <title>Customizing Bootstrap from twitter</title>
 </svelte:head>
 
+<script>
+import PostHeader from '$lib/PostHeader.svelte'
+</script>
+
+<PostHeader {title} {date} />
+
 I have been using Bootstrap from twitter for quite some time now. I love how i can easily create beautiful looking forms and other controls in such a quick time. But there comes a time when you get bored using the same thing again and again. You want to customize the form elements or the navigation bar or change the damn color scheme (you get the idea).
 
 Bootstrap uses Less which is not that tough to customize but not for a novice by any means. It's here that you feel the need for more out of the box recipes made specifically for bootstrap. I will list a few sites i visit when i feel the need for tweaking bootstrap -

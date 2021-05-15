@@ -8,6 +8,12 @@ slug: "2013-05-28-what-is-nodejs"
 	<title>What is nodejs?</title>
 </svelte:head>
 
+<script>
+import PostHeader from '$lib/PostHeader.svelte'
+</script>
+
+<PostHeader {title} {date} />
+
 I was confused for a long time about where to categorize nodejs.
 
 Some people called it server side language, which ofcourse is not true.
