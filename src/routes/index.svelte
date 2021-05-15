@@ -42,8 +42,8 @@
 		<h2>Recent posts</h2>
 		<ul class="posts">
 			{#each posts as post}
-				<li class="list-none">
-					<a class="text-blue-500 space-y-3" rel="prefetch" href="blog/{post.metadata.slug}">
+				<li>
+					<a rel="prefetch" href="blog/{post.metadata.slug}">
 						<h2>
 							{post.metadata.title}
 						</h2>
