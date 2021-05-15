@@ -1,0 +1,1 @@
+import{S as s,i as t,s as r}from"../chunks/vendor-ce80dba4.js";function e(){return{redirect:"blog",status:301}}export default class extends s{constructor(s){super(),t(this,s,null,null,r,{})}}export{e as load};
