@@ -35,11 +35,11 @@
 
 	.logo-big {
 		font-size: 4rem;
-		transition: all 0.2s ease-in-out;
+		transition: all 0.1s ease-in-out;
 	}
 
 	.logo-small {
 		font-size: 1.5rem;
-		transition: all 0.2s ease-in-out;
+		transition: all 0.1s ease-in-out;
 	}
 </style>
