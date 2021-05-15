@@ -6,19 +6,7 @@
 	}
 
 	function dateSort(a, b) {
-		const dateA = a.metadata.date;
-		const dateB = b.metadata.date;
-
-		const [yearA, monthA, dayA] = dateA.split('-');
-		const [yearB, monthB, dayB] = dateB.split('-');
-
-		if (yearA - yearB !== 0) {
-			return yearB - yearA;
-		} else if (monthA - monthB !== 0) {
-			return monthB - monthA;
-		} else {
-			return dayB - dayA;
-		}
+		return new Date(b.metadata.date) - new Date(a.metadata.date);
 	}
 	/**
 	 * @type {import('@sveltejs/kit').Load}
