@@ -10,17 +10,17 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-c7618361.js">
+		<link rel="modulepreload" href="/./_app/start-2d4a8916.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
-		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-b2507787.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/__layout.svelte-e2cc25ba.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2013-05-28-what-is-nodejs.svx-7960f92d.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-e4f0d9e8.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2013-05-28-what-is-nodejs.svx-6f4b0b9e.js">
+		<link rel="modulepreload" href="/./_app/chunks/PostHeader-ff0a5535.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-8a36d976.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-c7618361.js";
+			import { start } from "/./_app/start-2d4a8916.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -33,9 +33,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/./_app/pages/__layout.svelte-b2507787.js"),
-						import("/./_app/pages/blog/__layout.svelte-e2cc25ba.js"),
-						import("/./_app/pages/blog/2013-05-28-what-is-nodejs.svx-7960f92d.js")
+						import("/./_app/pages/__layout.svelte-e4f0d9e8.js"),
+						import("/./_app/pages/blog/2013-05-28-what-is-nodejs.svx-6f4b0b9e.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -53,16 +52,16 @@
 
 <main style="max-width: 42rem;margin:auto"><h1 class="logo logo-small svelte-1tkco1r"><a class="header-link svelte-1tkco1r" href="/">unstack.in </a></h1>
 
-	<div class="post">
 	
 
 
+<h2 style="margin-bottom: 0">What is nodejs?</h2>
+<div class="date">2013-05-28</div>
 <p>I was confused for a long time about where to categorize nodejs.</p>
 <p>Some people called it server side language, which ofcourse is not true.</p>
 <p>Nodejs.org defined nodejs as -</p>
 <blockquote><p>a platform built on Chrome’s JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p></blockquote>
 <p>For me nodejs is something which gives javascript IO capabilities. ECMAscript has nothing at all defined for IO in javascript. Ryan Dahl was smart to add async IO to existing javascript, leveraged Google V8’s speed and came out with a kickass technology.</p>
-</div>
 </main>
 
 

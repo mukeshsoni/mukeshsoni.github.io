@@ -10,17 +10,17 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-c7618361.js">
+		<link rel="modulepreload" href="/./_app/start-2d4a8916.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
-		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-b2507787.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/__layout.svelte-e2cc25ba.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2015-01-25-getting-started-with-phonegap-on-osx.svx-28b78570.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-e4f0d9e8.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2015-01-25-getting-started-with-phonegap-on-osx.svx-8ac91d48.js">
+		<link rel="modulepreload" href="/./_app/chunks/PostHeader-ff0a5535.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-8a36d976.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-c7618361.js";
+			import { start } from "/./_app/start-2d4a8916.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -33,9 +33,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/./_app/pages/__layout.svelte-b2507787.js"),
-						import("/./_app/pages/blog/__layout.svelte-e2cc25ba.js"),
-						import("/./_app/pages/blog/2015-01-25-getting-started-with-phonegap-on-osx.svx-28b78570.js")
+						import("/./_app/pages/__layout.svelte-e4f0d9e8.js"),
+						import("/./_app/pages/blog/2015-01-25-getting-started-with-phonegap-on-osx.svx-8ac91d48.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -53,10 +52,11 @@
 
 <main style="max-width: 42rem;margin:auto"><h1 class="logo logo-small svelte-1tkco1r"><a class="header-link svelte-1tkco1r" href="/">unstack.in </a></h1>
 
-	<div class="post">
 	
 
 
+<h2 style="margin-bottom: 0">Getting started with phonegap on OSX</h2>
+<div class="date">2015-01-05</div>
 <p>Install phonegap using npm</p>
 <pre class="language-undefined"><code class="language-undefined">npm install -g phonegap</code></pre>
 <p>Check if phonegap is install properly</p>
@@ -86,7 +86,6 @@ phonegap install android</code></pre>
 <p>Android simulator is very very very slow. So it’s a better idea to run the app on a device. Even better idea is to use phonegap app. Go to <a href="http://app.phonegap.com" rel="nofollow">app.phonegap.com</a> on instructions on how to install the app on your phone. All you need to do is run <code>phonegap serve</code> from the project directory. It will spawn a web server and show you the address on which it is running (something like 192.168.1.103:3000). Now install the phonegap app on your phone from the Google play store. Enter the server address from above into the app and you should see your app on the phone. Make some change to the index.html file in the www directory and save. You should see the change automatically on your phone. Pretty awesome actually. No usb connection required for this and the server keeps watching your files for changes and automatically pushes the new app. And it’s fast.</p>
 <p>Go ahead and take a look into the contents of www directory. This is where you will be working all the time. If you are a web developer you will be right at home. Make some changes to the index.html file and see your app changing.</p>
 <p>We will look into how to change the default application and make something more useful in future blog posts.</p>
-</div>
 </main>
 
 

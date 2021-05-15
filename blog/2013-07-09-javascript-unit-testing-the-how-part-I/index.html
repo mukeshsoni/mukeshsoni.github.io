@@ -10,17 +10,17 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-c7618361.js">
+		<link rel="modulepreload" href="/./_app/start-2d4a8916.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
-		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-b2507787.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/__layout.svelte-e2cc25ba.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-b7b77eb0.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-e4f0d9e8.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-c610bda2.js">
+		<link rel="modulepreload" href="/./_app/chunks/PostHeader-ff0a5535.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-8a36d976.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-c7618361.js";
+			import { start } from "/./_app/start-2d4a8916.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -33,9 +33,8 @@
 					status: 200,
 					error: null,
 					nodes: [
-						import("/./_app/pages/__layout.svelte-b2507787.js"),
-						import("/./_app/pages/blog/__layout.svelte-e2cc25ba.js"),
-						import("/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-b7b77eb0.js")
+						import("/./_app/pages/__layout.svelte-e4f0d9e8.js"),
+						import("/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-c610bda2.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -53,10 +52,11 @@
 
 <main style="max-width: 42rem;margin:auto"><h1 class="logo logo-small svelte-1tkco1r"><a class="header-link svelte-1tkco1r" href="/">unstack.in </a></h1>
 
-	<div class="post">
 	
 
 
+<h2 style="margin-bottom: 0">JavaScript Unit Testing - the HOW - Part I</h2>
+<div class="date">2013-07-09</div>
 <p>Testing javascript is a tricky affair. Mainly because you can’t directly run your javascript written for a browser us something like ‘js myjstest.js’ in the command line. Surely there are testing frameworks and task managers like grunt which finally enable you to do exactly that, but it’s a lot of plumbing to get going.
 The second reason it’s tough to test javascript is because of it’s async nature. Testing asynchronous functions is kind of a pain in the ass.</p>
 <p>There are a lot of helpful libraries to tame the beast. But we will not start with any framework/library. We will start with the basics which would also allow us to better appreciate the frameworks.</p>
@@ -127,7 +127,6 @@ All we wanted to do above was something like “i am telling you, 2+5 is equal t
 <span class="token punctuation">&#125;</span></code></pre>
 <p>If we want to be purist, we should also remove passedTestCount++ from assertion function. There is no reason for assertion function to deal with correct/incorrect assertion counts. But i will leave that to you.</p>
 <p>In the next article we will try to see how we can enhance our little testing framework (ok, just one function for now) to handle more complicated cases. Till then, adios!</p>
-</div>
 </main>
 
 
