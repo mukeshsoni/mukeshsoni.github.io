@@ -10,17 +10,17 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-2d4a8916.js">
+		<link rel="modulepreload" href="/./_app/start-1e06fd6b.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
 		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-e4f0d9e8.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-c610bda2.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-06151f4a.js">
 		<link rel="modulepreload" href="/./_app/chunks/PostHeader-ff0a5535.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-8a36d976.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-2d4a8916.js";
+			import { start } from "/./_app/start-1e06fd6b.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -34,7 +34,7 @@
 					error: null,
 					nodes: [
 						import("/./_app/pages/__layout.svelte-e4f0d9e8.js"),
-						import("/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-c610bda2.js")
+						import("/./_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.svx-06151f4a.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -69,7 +69,7 @@ The second reason it’s tough to test javascript is because of it’s async nat
 <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
   <span class="token keyword">return</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
 <span class="token punctuation">&#125;</span></code></pre>
-<p><img src="https://farm9.staticflickr.com/8643/16196564474_63b66e88a3_o.png" alt="Running the test in the browser"></p>
+<p><img src="/_app/assets/_console_add.7bd53041.jpeg" alt="Running the test in the browser"></p>
 <p>That is unit testing for you. The problem - it’s not “automated”.</p>
 <p>How can we automate it? The simplest way to do it would be to make the test calls in the same html and check their validity.</p>
 <pre class="language-javascript"><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
