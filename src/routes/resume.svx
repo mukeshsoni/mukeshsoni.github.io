@@ -1,3 +1,9 @@
+---
+title: Resume
+date: "2021-01-05"
+slug: "resue"
+---
+
 **Mukesh Soni**
 **mukeshsoni@gmail.com**
 **Ph - 8792643041**
