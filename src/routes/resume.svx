@@ -1,14 +1,13 @@
 ---
 title: Resume
 date: "2021-01-05"
-slug: "resue"
+slug: "resume"
 ---
 
 ## Resume
 
-**Mukesh Soni**
-**mukeshsoni@gmail.com**
-**Ph - 8792643041**
+**Mukesh Soni**<br/>
+**mukeshsoni [at] gmail**
 
 > I am good at JavaScript, TypeScript, HTML, CSS, reactjs and family. I have also worked in nodejs. I have been doing web development since 2011 and loved most of the journey. I am still super excited about the future of web development.
 

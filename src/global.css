@@ -75,6 +75,13 @@ header nav a {
 	margin-right: 0.7rem;
 }
 
+blockquote {
+	padding-left: 1rem;
+	margin: 0;
+	margin-left: -1rem;
+	border-left: 0.32813rem solid hsla(0,0%,0%,0.9);
+}
+
 .posts {
 	margin: 0;
 	padding: 0;
@@ -98,3 +105,4 @@ header nav a {
 	padding-left: 0;
 	margin-bottom: calc(1.75rem / 2);
 }
+
