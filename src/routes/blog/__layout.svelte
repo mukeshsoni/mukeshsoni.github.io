@@ -34,3 +34,15 @@
 	{/if}
 	<slot />
 </div>
+
+<style>
+	ol li {
+		padding-left: 0;
+		margin-bottom: calc(1.75rem / 2);
+	}
+	.post ol li,
+	.post ul li {
+		padding-left: 0;
+		margin-bottom: calc(1.75rem / 2);
+	}
+</style>

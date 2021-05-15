@@ -15,7 +15,7 @@
 </script>
 
 <main style="max-width: 42rem;margin:auto">
-	<h1 class={onRoot ? 'logo-big' : 'logo-small'}>
+	<h1 class={onRoot ? 'logo logo-big' : 'logo logo-small'}>
 		<a class="header-link" href="/"> unstack.in </a>
 	</h1>
 
@@ -28,6 +28,11 @@
 		box-shadow: none;
 		text-decoration: none;
 	}
+
+	.logo {
+		margin-top: 0;
+	}
+
 	.logo-big {
 		font-size: 4rem;
 		transition: all 0.2s ease-in-out;
