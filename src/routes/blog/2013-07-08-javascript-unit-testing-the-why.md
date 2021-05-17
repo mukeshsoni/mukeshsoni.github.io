@@ -1,18 +1,12 @@
 ---
 title: JavaScript Unit Testing - the WHY
-date: "2013-07-08"
-slug: "2013-07-08-javascript-unit-testing-the-why"
+date: '2013-07-08'
+slug: '2013-07-08-javascript-unit-testing-the-why'
 ---
 
 <svelte:head>
-	<title>JavaScript Unit Testing - the WHY</title>
+<title>JavaScript Unit Testing - the WHY</title>
 </svelte:head>
-
-<script>
-import PostHeader from '$lib/PostHeader.svelte'
-</script>
-
-<PostHeader {title} {date} />
 
 When i say 'javascript testing' what i mean is 'automated javascript testing'.
 

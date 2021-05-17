@@ -20,7 +20,9 @@ body {
 }
 
 /* copied from http://bettermotherfuckingwebsite.com/ */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
 	line-height: 1.2;
 }
 

@@ -1,19 +1,16 @@
 ---
 title: JavaScript Unit Testing - the HOW - Part I
-date: "2013-07-09"
-slug: "2013-07-09-javascript-unit-testing-the-how-part-I"
+date: '2013-07-09'
+slug: '2013-07-09-javascript-unit-testing-the-how-part-I'
 ---
 
 <svelte:head>
-	<title>JavaScript Unit Testing - the HOW - Part I</title>
+<title>JavaScript Unit Testing - the HOW - Part I</title>
 </svelte:head>
 
 <script>
-import PostHeader from '$lib/PostHeader.svelte'
 import consoleAddImage from './_console_add.jpeg';
 </script>
-
-<PostHeader {title} {date} />
 
 Testing javascript is a tricky affair. Mainly because you can't directly run your javascript written for a browser us something like 'js myjstest.js' in the command line. Surely there are testing frameworks and task managers like grunt which finally enable you to do exactly that, but it's a lot of plumbing to get going.
 The second reason it's tough to test javascript is because of it's async nature. Testing asynchronous functions is kind of a pain in the ass.
@@ -34,7 +31,7 @@ One way we can do this is by putting the above function in a script tag in an ht
 
 ```javascript
 function add(x, y) {
-  return x + y;
+	return x + y;
 }
 ```
 
@@ -71,8 +68,8 @@ But our test code is so verbose and non reusable that this might be the last tim
 Assertions -
 All we wanted to do above was something like "i am telling you, 2+5 is equal to 7. If not, ask the function writer to repeat 2nd standard". And this should happen is as less code as possible. Assertions allow you to do exactly that in just a single line. So you go something like -
 
-```javascript 
-assert(add(2,5) === 7, "learn your maths");
+```javascript
+assert(add(2, 5) === 7, 'learn your maths');
 ```
 
 And the assert function should throw out pass and fail messages accordingly. Let's try writing one -

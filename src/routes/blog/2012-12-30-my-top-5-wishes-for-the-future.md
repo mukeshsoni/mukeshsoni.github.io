@@ -1,18 +1,12 @@
 ---
 title: My top 5 wishes for the future
-date: "2012-12-30"
-slug: "2012-12-30-my-top-5-wishes-for-the-future"
+date: '2012-12-30'
+slug: '2012-12-30-my-top-5-wishes-for-the-future'
 ---
 
 <svelte:head>
-	<title>Customizing Bootstrap from twitter</title>
+<title>Customizing Bootstrap from twitter</title>
 </svelte:head>
-
-<script>
-import PostHeader from '$lib/PostHeader.svelte'
-</script>
-
-<PostHeader {title} {date} />
 
 Every now and then i am frustrated by one or the other event. Sometimes the govt. frustrates me, some times my own gadgets and at other times, any and everyone in my vicinity. Here's my top 5 wish list for the future to reduce those frustrations -
 

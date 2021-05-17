@@ -1,18 +1,13 @@
 ---
+layout: blog
 title: What is nodejs?
-date: "2013-05-28"
-slug: "2013-05-28-what-is-nodejs"
+date: '2013-05-28'
+slug: '2013-05-28-what-is-nodejs'
 ---
 
 <svelte:head>
-	<title>What is nodejs?</title>
+<title>What is nodejs?</title>
 </svelte:head>
-
-<script>
-import PostHeader from '$lib/PostHeader.svelte'
-</script>
-
-<PostHeader {title} {date} />
 
 I was confused for a long time about where to categorize nodejs.
 
