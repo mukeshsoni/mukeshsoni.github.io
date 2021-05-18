@@ -10,17 +10,18 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-9737d195.js">
+		<link rel="modulepreload" href="/./_app/start-c8fb2b78.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
 		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-8c7117d5.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-71a03147.js">
-		<link rel="modulepreload" href="/./_app/chunks/BlogLayout-68e04313.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-ebc6b593.js">
+		<link rel="modulepreload" href="/./_app/chunks/BlogLayout-c9b1be15.js">
+		<link rel="modulepreload" href="/./_app/chunks/Bio-9303181a.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-6f4d6741.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-9737d195.js";
+			import { start } from "/./_app/start-c8fb2b78.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -34,7 +35,7 @@
 					error: null,
 					nodes: [
 						import("/./_app/pages/__layout.svelte-8c7117d5.js"),
-						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-71a03147.js")
+						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-ebc6b593.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -61,7 +62,10 @@
 <p>If you don’t want to read the whole article, you can checkout the final code <a href="https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte" rel="nofollow">here</a>.</p>
 <h3 id="step-1---setup-svelte-kit-template"><a href="#step-1---setup-svelte-kit-template">Step 1 - Setup svelte kit template</a></h3>
 <p>You can get started with svelte kit template using their <code>npm init</code> command - </p>
-<pre class="language-undefined"><code class="language-undefined">npm init svelte@next &lt;project_name&gt;</code></pre>
+<pre class="language-undefined"><code class="language-undefined">npm init svelte@next &lt;project_name&gt;
+cd &lt;project_name&gt;
+npm install
+npm run dev -- --open</code></pre>
 <h3 id="step-2---add-mdsvex-to-convert-markdown-files-to-html"><a href="#step-2---add-mdsvex-to-convert-markdown-files-to-html">Step 2 - Add mdsvex to convert markdown files to html</a></h3>
 <pre class="language-undefined"><code class="language-undefined">npx svelte-add mdsvex</code></pre>
 <p><code>svelte-add mdsvex</code> will make necessary changes to <code>package.json</code> to add the required dependencies, add a mdsvex config file and change the <code>svelte.config</code> file to add mdsvex as a preprocessor. </p>
@@ -130,7 +134,8 @@ slug: &#39;2021-05-81-make-blog-with-sveltekit&#39;
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>main</span><span class="token punctuation">></span></span></code></pre>
 <p>You can read more about svelte kit layout components here - <a href="https://kit.svelte.dev/docs#layouts" rel="nofollow">https://kit.svelte.dev/docs#layouts</a></p>
 <h3 id="step-5---add-a-layout-component-for-individual-blog-posts"><a href="#step-5---add-a-layout-component-for-individual-blog-posts">Step 5 - Add a layout component for individual blog posts</a></h3>
-<p>This was trickier than i thought and not as tricky as i thought. I thought i would utilize svelte-kit’s layout capability, with <code>__layout.svelte</code> file in the blog folder. But I wanted the layout component for blog post to take care of the post title. My first attempt was to use the <code>load</code> function provided by <code>svelte-kit</code> and then fetching the metadata for the post by importing that file. That worked during development but didn’t work with static adapter. Since i was importing file dynamically, it needed a server.</p>
+<p>This was trickier than i thought. At least my first attempt. And when i found the solution, it was not as tricky as i thought. At least not as tricky as trying to read this paragraph.</p>
+<p>I thought i would utilize svelte-kit’s layout capability, with <code>__layout.svelte</code> file in the blog folder. But I wanted the layout component for blog post to take care of the post title. My first attempt was to use the <code>load</code> function provided by <code>svelte-kit</code> and then fetching the metadata for the post by importing that file. That worked during development but didn’t work with static adapter. Since i was importing file dynamically, it needed a server.</p>
 <p>Then i found out about layouts in mdsvex. All i had to do was add a svelte component somewhere, say lib folder, and then point mdsvex to that file. That is done in <code>mdsvex.config.cjs</code></p>
 <pre class="language-javascript"><code class="language-javascript">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">&#123;</span>
 	layout<span class="token operator">:</span> <span class="token punctuation">&#123;</span>
@@ -197,11 +202,26 @@ npx serve</code></pre>
 <p>If you are deploying a project site, you can remove the <code>-b master</code> flag from gh-pages command. <code>gh-pages</code> pushes to <code>gh-pages</code> branch by default.</p>
 <p><code>gh-pages</code> will also push the branch to remote. So if all goes well, you should be able to see your site live after some time.</p>
 <h4 id="fixing-_appsjs-and-_appscss-paths-returning-404-on-the-deployed-site"><a href="#fixing-_appsjs-and-_appscss-paths-returning-404-on-the-deployed-site">Fixing _apps/<em>.js and _apps/</em>.css paths returning 404 on the deployed site</a></h4>
-<p>After you deploy your site by pushing the github branch, you will probably see your site looking a little different to what it looks on your development environment. That’s because some of the js and css is missing. If you open the devtools and then the network tab, a number of js and css files might be returning 404. All off those would be serving files from inside the <code>__app</code> folder. That is because github does not deploy the <code>__app</code> folder. All folders starting with an <code>_</code> are to be ignored for sites built with <a href="https://jekyllrb.com/docs/" rel="nofollow">jekyll</a>. Read more about it <a href="https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/" rel="nofollow">here</a>.</p>
+<p>After you deploy your site by pushing the github branch, you will probably see your site looking a little different to what it looks on your development environment. That’s because some of the js and css is missing. If you open the devtools and then the network tab, a number of js and css files might be returning 404. All of those would be serving files from inside the <code>__app</code> folder. That is because github does not deploy the <code>__app</code> folder. All folders starting with an <code>_</code> are to be ignored for sites built with <a href="https://jekyllrb.com/docs/" rel="nofollow">jekyll</a>. Read more about it <a href="https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/" rel="nofollow">here</a>.</p>
 <p>To get around the problem, we have to add an empty file named <code>.nojekyll</code> to our static folder. <code>npm run build</code> will then copy that file to the <code>build</code> folder and <code>gh-pages</code> will then push that file to the required github branch.</p>
 <p>You might find that it still doesn’t work. Mainly because <code>gh-pages</code> is not pushing the <code>.nojekyll</code> file to the github branch, because <code>gh-pages</code> tool ignores all files starting with a <code>.</code> (dot). We can tell the <code>gh-pages</code> tool to also push dot files from the build folder by using the <code>-t</code> flag. If you copied the deploy command from above, it’s already there.</p>
 <p>That is it! Go ahead and add a lot of blog posts as markdown files and deploy to your site. I am kidding. Building the blog with svelte kit was fun though.</p>
-<p>Link to final code - <a href="https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte" rel="nofollow">https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte</a></p></div>
+<p>Link to final code - <a href="https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte" rel="nofollow">https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte</a></p>
+	<br>
+	<a href="/">Browse more posts</a>
+	<h3>About me</h3>
+	<div style="display: flex; margin-bottom: 3.5rem; flex-direction: column;"><div style="display: flex"><img src="/profile-pic.jpg" alt="Mukesh Soni" style="margin-right: 1rem; margin-bottom: 0; width: 56px; height: 56px">
+<div><p style="margin-top: 0;">This is the personal blog of <strong>Mukesh Soni</strong>. I am a frontend engineer who&#39;s
+		exhausted trying to keep up with the new technologies in the frontend world. I am good at
+		JavaScript, HTML, CSS, React (ReactJS) and nodejs. I have been doing this stuff since 2011.
+	</p>
+	<p style="margin-top: 0">This blog was written in <a href="https://svelte.dev">svelte</a>, using
+		<a href="https://kit.svelte.dev/">svelte-kit</a>, even though i write reactjs in my day job.
+	</p></div></div>
+	<a style="text-decoration: none; box-shadow: none;" href="https://twitter.com/mukeshsoni">Follow me on Twitter
+	</a>
+	<a style="text-decoration: none; box-shadow: none;" href="https://github.com/mukeshsoni">Look at my open source work on github
+	</a></div></div>
 </main>
 
 
