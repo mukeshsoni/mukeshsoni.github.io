@@ -8,7 +8,7 @@ slug: '2021-05-81-make-blog-with-sveltekit'
 <title>Make a blog with svelte kit and host on github</title>
 </svelte:head>
 
-After reading this post, you should be able to make a blog using svelte kit, and host it on github or any other hosting service of your choice.
+After reading this post, you should be able to make a blog using svelte kit, and host it on github or any other hosting service of your choice. You can write your posts as markdown files.
 
 This post assumes that you know what svelte is and also what hosting a static site means. You can read more about svelte here - https://svelte.dev. And more about svelte kit here - https://kit.svelte.dev.
 
