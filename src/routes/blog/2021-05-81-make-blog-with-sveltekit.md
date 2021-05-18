@@ -10,11 +10,13 @@ slug: '2021-05-81-make-blog-with-sveltekit'
 
 After reading this post, you should be able to make a blog using svelte kit, and host it on github or any other hosting service of your choice.
 
+This post assumes that you know what svelte is and also what hosting a static site means. You can read more about svelte here - https://svelte.dev. And more about svelte kit here - https://kit.svelte.dev.
+
 I recently moved by teeny tiny unmaintained blog from gatsby to svelte kit. Removing gatsby removed a lot of complexity which comes with gatsby. I no longer understood what was going on under the hood and was too scared to upgrade gatsby.
 
-Switching to svelte-kit was relatively straight forward except for a few quirks. The quirks mainly had to do with rendering markdown as html.
+Switching to svelte-kit was relatively straight forward except for a few quirks. The quirks mainly had to do with rendering markdown as html and figuring out how to publish the final site through github.
 
-If you don't want to read the whole article, you can checkout the final code [here](https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte).
+If you don't want to read the whole article, you can checkout the final code here - https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte.
 
 ### Step 1 - Setup svelte kit template
 You can get started with svelte kit template using their `npm init` command - 
@@ -35,7 +37,7 @@ npx svelte-add mdsvex
 
 You will have to restart the dev server for mdsvex preprocessor to kick in.
 
-Try adding a markdown file in your routes folder and going to the route pointed by the markdown file name.
+Try adding a markdown file in your routes folder and going to the route pointed by the markdown file name. E.g. Add a file `src/routes/my-awesome-post.md` and put some content in there. You should be able to view that content on `localhost:3000/my-awesome-post`.
 
 ### Step 3 - Show a list of all blog posts on home page
 We want to collect all our markdown files and show the list of blog posts on the home page or on some other path, so that our users can browse the super amazing content we publish.
@@ -235,5 +237,6 @@ To get around the problem, we have to add an empty file named `.nojekyll` to our
 You might find that it still doesn't work. Mainly because `gh-pages` is not pushing the `.nojekyll` file to the github branch, because `gh-pages` tool ignores all files starting with a `.` (dot). We can tell the `gh-pages` tool to also push dot files from the build folder by using the `-t` flag. If you copied the deploy command from above, it's already there.
 
 That is it! Go ahead and add a lot of blog posts as markdown files and deploy to your site. I am kidding. Building the blog with svelte kit was fun though.
+
 
 Link to final code - https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte
