@@ -10,18 +10,18 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-a475dad1.js">
+		<link rel="modulepreload" href="/./_app/start-aab8c874.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/chunks/preload-helper-9f12a5fd.js">
 		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-8c7117d5.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-15ff3081.js">
-		<link rel="modulepreload" href="/./_app/chunks/BlogLayout-c9b1be15.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-984f6349.js">
+		<link rel="modulepreload" href="/./_app/chunks/BlogLayout-07837b6e.js">
 		<link rel="modulepreload" href="/./_app/chunks/Bio-9303181a.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-6f4d6741.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-a475dad1.js";
+			import { start } from "/./_app/start-aab8c874.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -35,7 +35,7 @@
 					error: null,
 					nodes: [
 						import("/./_app/pages/__layout.svelte-8c7117d5.js"),
-						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-15ff3081.js")
+						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-984f6349.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -67,6 +67,9 @@
 cd &lt;project_name&gt;
 npm install
 npm run dev -- --open</code></pre>
+<p>When you run <code>npm init svelte@next &lt;your_project_name&gt;</code>, you will be asked a set of questions. E.g. Do you want to enable typescript in this project? Once you answer all the questions, the command will create a set of files in the <your_project_name>folder. Think of the command as a helper which chooses the right template for you.</your_project_name></p>
+<p>Once the init command creates the files, you can go inside the folder and install the npm dependencies. The init command does not install the dependencies. It only specifies the list of dependencies in the package.json file.</p>
+<p>After the dependencies are installed, you can invoke the <code>dev</code> script which is already defined in your <code>package.json</code> file by the <code>init</code> command - <code>npm run dev -- --open</code>. This should start a localhost server on port 3000.</p>
 <h3 id="step-2---add-mdsvex-to-convert-markdown-files-to-html"><a href="#step-2---add-mdsvex-to-convert-markdown-files-to-html">Step 2 - Add mdsvex to convert markdown files to html</a></h3>
 <pre class="language-undefined"><code class="language-undefined">npx svelte-add mdsvex</code></pre>
 <p><code>svelte-add mdsvex</code> will make necessary changes to <code>package.json</code> to add the required dependencies, add a mdsvex config file and change the <code>svelte.config</code> file to add mdsvex as a preprocessor. </p>
@@ -210,6 +213,7 @@ npx serve</code></pre>
 <p>Link to final code - <a href="https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte" rel="nofollow">https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte</a></p>
 	<br>
 	<a href="/">Browse more posts</a>
+	<hr>
 	<h3>About me</h3>
 	<div style="display: flex; margin-bottom: 3.5rem; flex-direction: column;"><div style="display: flex"><img src="/profile-pic.jpg" alt="Mukesh Soni" style="margin-right: 1rem; margin-bottom: 0; width: 56px; height: 56px">
 <div><p style="margin-top: 0;">This is the personal blog of <strong>Mukesh Soni</strong>. I am a frontend engineer who&#39;s
