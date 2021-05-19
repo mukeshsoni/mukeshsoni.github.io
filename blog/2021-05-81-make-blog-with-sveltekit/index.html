@@ -10,17 +10,17 @@
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-6b9280fd.js">
+		<link rel="modulepreload" href="/./_app/start-4f83d3b0.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-ab208dc6.js">
 		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-8c7117d5.js">
-		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-b71becb3.js">
+		<link rel="modulepreload" href="/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-370f5db9.js">
 		<link rel="modulepreload" href="/./_app/chunks/BlogLayout-13fb6eb5.js">
 		<link rel="modulepreload" href="/./_app/chunks/Bio-9303181a.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-6f4d6741.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-6b9280fd.js";
+			import { start } from "/./_app/start-4f83d3b0.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
@@ -34,7 +34,7 @@
 					error: null,
 					nodes: [
 						import("/./_app/pages/__layout.svelte-8c7117d5.js"),
-						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-b71becb3.js")
+						import("/./_app/pages/blog/2021-05-81-make-blog-with-sveltekit.md-370f5db9.js")
 					],
 					page: {
 						host: location.host, // TODO this is redundant
@@ -62,15 +62,15 @@
 <p>If you don’t want to read the whole article, you can checkout the final code here - <a href="https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte" rel="nofollow">https://github.com/mukeshsoni/mukeshsoni.github.io/tree/svelte</a>.</p>
 <h3 id="step-1---setup-svelte-kit-template"><a href="#step-1---setup-svelte-kit-template">Step 1 - Setup svelte kit template</a></h3>
 <p>You can get started with svelte kit template using their <code>npm init</code> command - </p>
-<pre class="language-undefined"><code class="language-undefined">npm init svelte@next &lt;project_name&gt;
-cd &lt;project_name&gt;
-npm install
-npm run dev -- --open</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> init svelte@next <span class="token operator">&lt;</span>project_name<span class="token operator">></span>
+<span class="token builtin class-name">cd</span> <span class="token operator">&lt;</span>project_name<span class="token operator">></span>
+<span class="token function">npm</span> <span class="token function">install</span>
+<span class="token function">npm</span> run dev -- --open</code></pre>
 <p>When you run <code>npm init svelte@next &lt;your_project_name&gt;</code>, you will be asked a set of questions. E.g. Do you want to enable typescript in this project? Once you answer all the questions, the command will create a set of files in the <your_project_name>folder. Think of the command as a helper which chooses the right template for you.</your_project_name></p>
 <p>Once the init command creates the files, you can go inside the folder and install the npm dependencies. The init command does not install the dependencies. It only specifies the list of dependencies in the package.json file.</p>
 <p>After the dependencies are installed, you can invoke the <code>dev</code> script which is already defined in your <code>package.json</code> file by the <code>init</code> command - <code>npm run dev -- --open</code>. This should start a localhost server on port 3000.</p>
 <h3 id="step-2---add-mdsvex-to-convert-markdown-files-to-html"><a href="#step-2---add-mdsvex-to-convert-markdown-files-to-html">Step 2 - Add mdsvex to convert markdown files to html</a></h3>
-<pre class="language-undefined"><code class="language-undefined">npx svelte-add mdsvex</code></pre>
+<pre class="language-bash"><code class="language-bash">npx svelte-add mdsvex</code></pre>
 <p><code>svelte-add mdsvex</code> will make necessary changes to <code>package.json</code> to add the required dependencies, add a mdsvex config file and change the <code>svelte.config</code> file to add mdsvex as a preprocessor. </p>
 <p>You will have to restart the dev server for mdsvex preprocessor to kick in.</p>
 <p>Try adding a markdown file in your routes folder and going to the route pointed by the markdown file name. E.g. Add a file <code>src/routes/my-awesome-post.md</code> and put some content in there. You should be able to view that content on <code>localhost:3000/my-awesome-post</code>.</p>
@@ -117,21 +117,21 @@ body<span class="token operator">:</span> <span class="token punctuation">&#123;
 	<span class="token punctuation">&#125;</span><span class="token punctuation">;</span></code></pre>
 <p>And then fetch the metadata for a post in our <code>src/routes/index.svelte</code> file, or
 wherever you show the list of blog posts.</p>
-<pre class="language-javacript"><code class="language-javacript">&lt;script context=&quot;module&quot; lang=&quot;ts&quot;&gt;
-	/**
-	 * @type &#123;import(&#39;@sveltejs/kit&#39;).Load&#125;
-	 */
-	export async function load(&#123; page, fetch &#125;) &#123;
-const response = await fetch(&#39;/blog.json&#39;)
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">context</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>module<span class="token punctuation">"</span></span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+	<span class="token comment">/**
+	 * @type &#123;import('@sveltejs/kit').Load&#125;
+	 */</span>
+	<span class="token keyword">export</span> <span class="token keyword">async</span> <span class="token keyword">function</span> <span class="token function">load</span><span class="token punctuation">(</span><span class="token parameter"><span class="token punctuation">&#123;</span> page<span class="token punctuation">,</span> fetch <span class="token punctuation">&#125;</span></span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+<span class="token keyword">const</span> response <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token function">fetch</span><span class="token punctuation">(</span><span class="token string">'/blog.json'</span><span class="token punctuation">)</span>
 
-const &#123;posts&#125; = await response.json()
-return &#123;
-	props: &#123;
+<span class="token keyword">const</span> <span class="token punctuation">&#123;</span>posts<span class="token punctuation">&#125;</span> <span class="token operator">=</span> <span class="token keyword">await</span> response<span class="token punctuation">.</span><span class="token function">json</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+<span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+	props<span class="token operator">:</span> <span class="token punctuation">&#123;</span>
 		posts
-	&#125;
-&#125;;
-	&#125;
-&lt;/script&gt;</code></pre>
+	<span class="token punctuation">&#125;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+	<span class="token punctuation">&#125;</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span></code></pre>
 <p>Does having an endpoint mean that we need a server too? Ans - No. When we run
 the build script, which runs the static adapter, the endpoint is called and the
 post metadata is resolved before the final output is produced.</p>
@@ -143,11 +143,11 @@ date: &#39;2021-05-18&#39;
 slug: &#39;2021-05-81-make-blog-with-sveltekit&#39;
 ---</code></pre>
 <p>That post’s metadata would be an object and look like this</p>
-<pre class="language-undefined"><code class="language-undefined">&#123;
-	title: Make a blog with svelte kit and host on github,
-	date: &#39;2021-05-18&#39;,
-	slug: &#39;2021-05-81-make-blog-with-sveltekit&#39;,
-&#125;</code></pre>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">&#123;</span>
+	title<span class="token operator">:</span> Make a blog with svelte kit and host on github<span class="token punctuation">,</span>
+	date<span class="token operator">:</span> '<span class="token number">2021</span><span class="token number">-05</span><span class="token number">-18</span>'<span class="token punctuation">,</span>
+	slug<span class="token operator">:</span> '<span class="token number">2021</span><span class="token number">-05</span><span class="token number">-81</span>-make-blog-with-sveltekit'<span class="token punctuation">,</span>
+<span class="token punctuation">&#125;</span></code></pre>
 <p>You can then render whatever metadata you want to.</p>
 <pre class="language-html"><code class="language-html">&#123;#each posts as post&#125;
 	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
@@ -178,17 +178,17 @@ blog<span class="token operator">:</span> <span class="token string">'./src/lib/
 	<span class="token comment">// rest of the mdsvex config file</span>
 <span class="token punctuation">&#125;</span></code></pre>
 <p>And the BlogLayout.svelte component looked like this</p>
-<pre class="language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>script<span class="token operator">></span>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
 	<span class="token keyword">import</span> PostHeader <span class="token keyword">from</span> <span class="token string">'$lib/PostHeader.svelte'</span><span class="token punctuation">;</span>
 	<span class="token comment">// if i don't add the exports here, i can't access title and date as props</span>
 	<span class="token keyword">export</span> <span class="token keyword">let</span> title<span class="token punctuation">;</span>
 	<span class="token keyword">export</span> <span class="token keyword">let</span> date<span class="token punctuation">;</span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
 
-<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"post"</span><span class="token operator">></span>
-	<span class="token operator">&lt;</span>PostHeader <span class="token punctuation">&#123;</span>title<span class="token punctuation">&#125;</span> <span class="token punctuation">&#123;</span>date<span class="token punctuation">&#125;</span> <span class="token operator">/</span><span class="token operator">></span>
-	<span class="token operator">&lt;</span>slot <span class="token operator">/</span><span class="token operator">></span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span></code></pre>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>post<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>PostHeader</span> <span class="token attr-name">&#123;title&#125;</span> <span class="token attr-name">&#123;date&#125;</span> <span class="token punctuation">/></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>slot</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 <p>Now all my blog posts had a title and date at the top. The layout component also enabled styling the container for each post, if i wanted to.</p>
 <p>More about <code>mdsvex</code> layout components here - <a href="https://mdsvex.pngwn.io/docs#layouts" rel="nofollow">https://mdsvex.pngwn.io/docs#layouts</a></p>
 <h3 id="step-6---hosting-the-blog-on-github"><a href="#step-6---hosting-the-blog-on-github">Step 6 - Hosting the blog on github</a></h3>
@@ -227,7 +227,7 @@ npx serve</code></pre>
 <h4 id="install-gh-pages-and-deploy-site"><a href="#install-gh-pages-and-deploy-site">Install gh-pages and deploy site</a></h4>
 <p>Now that we have the built files, we have to push them to the master branch, for user site, or to the <code>gh-pages</code> branch for a project site. Once we update the branch and push to github, github will then deploy the files for us and we should be able to see our site come alive.</p>
 <p><code>gh-pages</code> is a handy tool to push the contents of any folder to any other branch in your repository. Installing <code>gh-pages</code> is straight forward with npm.</p>
-<pre class="language-undefined"><code class="language-undefined">npm install -D gh-pages</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -D gh-pages</code></pre>
 <p>I then added an npm script to make deployment easy -</p>
 <pre class="language-json"><code class="language-json"><span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">&#123;</span>
 	<span class="token property">"deploy"</span><span class="token operator">:</span> <span class="token string">"npm run build &amp;&amp; gh-pages -b master -d build -t"</span>
