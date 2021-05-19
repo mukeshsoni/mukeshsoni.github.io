@@ -28,6 +28,12 @@ npm install
 npm run dev -- --open
 ```
 
+When you run `npm init svelte@next <your_project_name>`, you will be asked a set of questions. E.g. Do you want to enable typescript in this project? Once you answer all the questions, the command will create a set of files in the <your_project_name> folder. Think of the command as a helper which chooses the right template for you.
+
+Once the init command creates the files, you can go inside the folder and install the npm dependencies. The init command does not install the dependencies. It only specifies the list of dependencies in the package.json file.
+
+After the dependencies are installed, you can invoke the `dev` script which is already defined in your `package.json` file by the `init` command - `npm run dev -- --open`. This should start a localhost server on port 3000.
+
 ### Step 2 - Add mdsvex to convert markdown files to html
 ```
 npx svelte-add mdsvex
