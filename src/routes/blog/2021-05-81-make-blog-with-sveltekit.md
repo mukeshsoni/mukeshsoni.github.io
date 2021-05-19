@@ -1,6 +1,6 @@
 ---
 title: Make a blog with svelte kit and host on github
-date: '2021-05-18'
+created: '2021-05-18'
 slug: '2021-05-81-make-blog-with-sveltekit'
 ---
 
@@ -48,25 +48,64 @@ Try adding a markdown file in your routes folder and going to the route pointed 
 ### Step 3 - Show a list of all blog posts on home page
 We want to collect all our markdown files and show the list of blog posts on the home page or on some other path, so that our users can browse the super amazing content we publish.
 
-We will use `import.meta.glob` to get the metadata for each of the markdown files. I have done that in my `routes/index.svelte` file. 
+We will use `import.meta.glob` to get the metadata for each of the markdown files. We will create an endpoint to get the metadata for a post. If we try to get the metadata using a glob pattern in our `routes/index.svelte` file, it will load all the blog posts upfront too. Which might be a disaster if we have too many blogs posts or our posts are heavy.
+
+So we create an endpoint which returns the metadata for blogs in
+`/src/routes/blog/index.json.ts` file. It won't work if you name your file
+`index.json.js` and had selected typescript when creating the project with `npm
+init svelte@next`.
+
 
 ```javascript
-<script context="module" lang="ts">
-	const posts = import.meta.glob('./blog/*.md');
-	let body = [];
-	for (const path in posts) {
-		body.push(posts[path]().then((post) => post));
-	}
+interface Post {
+	created: string;
+	title: string;
+	slug: string;
+}
 
-	function dateSort(a, b) {
-		return new Date(b.metadata.date) - new Date(a.metadata.date);
-	}
+function dateSort(a: Post, b: Post) {
+	// have to use getTime to satisfy typescript
+	// And if i make this file a js file, the endpoint is not detected since
+	// it's a typescript svelte project
+	return new Date(b.created).getTime() - new Date(a.created).getTime();
+}
+
+export const get: RequestHandler = async () => {
+	const modules = import.meta.glob('./**/*.md');
+
+	const posts = [];
+
+
+	await Promise.all(
+		Object.entries(modules).map(async ([_, module]) => {
+			const { metadata } = await module();
+
+			posts.push(metadata)
+		})
+	);
+
+	// Newest first
+	posts.sort(dateSort);
+
+	return {
+		body: {
+			posts: posts
+		}
+	};
+```
+
+And then fetch the metadata for a post in our `src/routes/index.svelte` file, or
+wherever you show the list of blog posts.
+
+```javacript
+<script context="module" lang="ts">
 	/**
 	 * @type {import('@sveltejs/kit').Load}
 	 */
 	export async function load({ page, fetch }) {
-		const posts = await Promise.all(body);
-		posts.sort(dateSort);
+		const response = await fetch('/blog.json')
+
+		const {posts} = await response.json()
 		return {
 			props: {
 				posts
@@ -74,13 +113,13 @@ We will use `import.meta.glob` to get the metadata for each of the markdown file
 		};
 	}
 </script>
-
-<script>
-	import Bio from '$lib/Bio.svelte';
-	export let posts;
-</script>
 ```
 
+Does having an endpoint mean that we need a server too? Ans - No. When we run
+the build script, which runs the static adapter, the endpoint is called and the
+post metadata is resolved before the final output is produced.
+
+adapter 
 Now, posts should have the list of posts with their metadata, as defined by you at the top of each post. E.g. If you have this at the top of a post - 
 
 ```

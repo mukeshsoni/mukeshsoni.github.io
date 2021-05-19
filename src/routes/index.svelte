@@ -1,19 +1,11 @@
 <script context="module" lang="ts">
-	const posts = import.meta.glob('./blog/*.md');
-	let body = [];
-	for (const path in posts) {
-		body.push(posts[path]().then((post) => post));
-	}
-
-	function dateSort(a, b) {
-		return new Date(b.metadata.date) - new Date(a.metadata.date);
-	}
 	/**
 	 * @type {import('@sveltejs/kit').Load}
 	 */
 	export async function load({ page, fetch }) {
-		const posts = await Promise.all(body);
-		posts.sort(dateSort);
+		const response = await fetch('/blog.json')
+
+		const {posts} = await response.json()
 		return {
 			props: {
 				posts
@@ -43,13 +35,13 @@
 		<ul class="posts">
 			{#each posts as post}
 				<li>
-					<a rel="prefetch" href="blog/{post.metadata.slug}">
+					<a rel="prefetch" href="blog/{post.slug}">
 						<h2>
-							{post.metadata.title}
+							{post.title}
 						</h2>
 					</a>
 					<div class="date">
-						{post.metadata.date}
+						{post.created}
 					</div>
 				</li>
 			{/each}

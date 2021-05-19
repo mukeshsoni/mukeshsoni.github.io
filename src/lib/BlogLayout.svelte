@@ -1,13 +1,14 @@
 <script>
 	import PostHeader from '$lib/PostHeader.svelte';
 	import Bio from './Bio.svelte'
-	// if i don't add the exports here, i can't access title and date as props
+	// if i don't add the exports here, i can't access title and created as props
 	export let title;
-	export let date;
+	export let created;
+		console.log({created})
 </script>
 
 <div class="post">
-	<PostHeader {title} {date} />
+	<PostHeader {title} {created} />
 	<slot />
 	<br />
 	<a href='/'>Browse more posts</a>

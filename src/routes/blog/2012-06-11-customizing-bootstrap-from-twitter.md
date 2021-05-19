@@ -1,6 +1,6 @@
 ---
 title: Customizing Bootstrap from twitter
-date: '2012-06-11'
+created: '2012-06-11'
 slug: '2012-06-11-customizing-bootstrap-from-twitter'
 ---
 

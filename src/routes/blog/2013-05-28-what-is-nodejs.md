@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: What is nodejs?
-date: '2013-05-28'
+created: '2013-05-28'
 slug: '2013-05-28-what-is-nodejs'
 ---
 

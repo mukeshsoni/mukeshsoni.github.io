@@ -1,6 +1,6 @@
 ---
 title: My top 5 wishes for the future
-date: '2012-12-30'
+created: '2012-12-30'
 slug: '2012-12-30-my-top-5-wishes-for-the-future'
 ---
 

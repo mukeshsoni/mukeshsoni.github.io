@@ -1,6 +1,6 @@
 ---
 title: JavaScript Unit Testing - the WHY
-date: '2013-07-08'
+created: '2013-07-08'
 slug: '2013-07-08-javascript-unit-testing-the-why'
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Getting started with phonegap on OSX
-date: '2015-01-05'
+created: '2015-01-05'
 slug: '2015-01-25-getting-started-with-phonegap-on-osx'
 ---
 

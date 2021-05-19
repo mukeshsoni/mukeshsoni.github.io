@@ -1,6 +1,6 @@
 ---
 title: JavaScript Unit Testing - the HOW - Part I
-date: '2013-07-09'
+created: '2013-07-09'
 slug: '2013-07-09-javascript-unit-testing-the-how-part-I'
 ---
 
