@@ -11,6 +11,7 @@
 	<slot />
 	<br />
 	<a href='/'>Browse more posts</a>
+	<hr />
 	<h3>About me</h3>
 	<Bio />
 </div>
