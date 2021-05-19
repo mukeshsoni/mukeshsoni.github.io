@@ -21,7 +21,7 @@ If you don't want to read the whole article, you can checkout the final code her
 ### Step 1 - Setup svelte kit template
 You can get started with svelte kit template using their `npm init` command - 
 
-```
+```bash
 npm init svelte@next <project_name>
 cd <project_name>
 npm install
@@ -35,7 +35,7 @@ Once the init command creates the files, you can go inside the folder and instal
 After the dependencies are installed, you can invoke the `dev` script which is already defined in your `package.json` file by the `init` command - `npm run dev -- --open`. This should start a localhost server on port 3000.
 
 ### Step 2 - Add mdsvex to convert markdown files to html
-```
+```bash
 npx svelte-add mdsvex
 ```
 
@@ -97,7 +97,7 @@ export const get: RequestHandler = async () => {
 And then fetch the metadata for a post in our `src/routes/index.svelte` file, or
 wherever you show the list of blog posts.
 
-```javacript
+```html
 <script context="module" lang="ts">
 	/**
 	 * @type {import('@sveltejs/kit').Load}
@@ -132,7 +132,7 @@ slug: '2021-05-81-make-blog-with-sveltekit'
 
 That post's metadata would be an object and look like this
 
-```
+```json
 {
 	title: Make a blog with svelte kit and host on github,
 	date: '2021-05-18',
@@ -186,7 +186,7 @@ module.exports = {
 
 And the BlogLayout.svelte component looked like this
 
-```javascript
+```html
 <script>
 	import PostHeader from '$lib/PostHeader.svelte';
 	// if i don't add the exports here, i can't access title and date as props
@@ -257,7 +257,7 @@ Now that we have the built files, we have to push them to the master branch, for
 
 `gh-pages` is a handy tool to push the contents of any folder to any other branch in your repository. Installing `gh-pages` is straight forward with npm.
 
-```
+```bash
 npm install -D gh-pages
 ```
 
