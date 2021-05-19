@@ -4,7 +4,6 @@
 	// if i don't add the exports here, i can't access title and created as props
 	export let title;
 	export let created;
-		console.log({created})
 </script>
 
 <div class="post">
