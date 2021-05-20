@@ -21,7 +21,7 @@ I like writing open source code code in my free time. Some of my personal work c
 
 #### Work experience
 
-#### Bipp (Dec 2020 - Present)
+#### Planview - Projectplace (Dec 2020 - Present)
 - Helped move our custom backbone based routing and multiple react trees to react-router based routing
 - Reduced webpack watch mode incremental build times from around 15 seconds to under 1
   second
