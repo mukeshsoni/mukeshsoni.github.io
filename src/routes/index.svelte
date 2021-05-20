@@ -26,12 +26,12 @@
 <div>
 	<Bio />
 
-	<h3 style="margin-bottom: 2rem;">
+	<h2 style="margin-bottom: 2rem;">
 		<a href="/resume" style="box-shadow: none;">/resume/</a>
-	</h3>
+	</h2>
 
 	<div>
-		<h2>Recent posts</h2>
+		<h2>Blog posts</h2>
 		<ul class="posts">
 			{#each posts as post}
 				<li>
