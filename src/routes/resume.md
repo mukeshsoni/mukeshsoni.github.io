@@ -21,6 +21,20 @@ I like writing open source code code in my free time. Some of my personal work c
 
 #### Work experience
 
+#### Bipp (Dec 2020 - Present)
+- Helped move our custom backbone based routing and multiple react trees to react-router based routing
+- Reduced webpack watch mode incremental build times from around 15 seconds to under 1
+  second
+- Introduced model based testing with models written in xstate
+- Coded UI for multiple new tools and converted old tools to new UI/UX
+- CI/CD changes to make PR merges more secure by running unit/integration tests
+  on every merge
+
+#### Bipp (Aug 2020 - Nov 2020)
+- Introduced unit and integration testing with jest
+- Wrote a parser for their data modeling language call BippLang which helped
+  improve the editor experience
+
 #### Saltside (June 2018 - April 2020) - Lead web developer
 - Lead the team which rewrote Saltside classified frontend/sites from nodejs
   template based rendering to single page application using reactjs
