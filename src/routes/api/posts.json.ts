@@ -1,5 +1,3 @@
-import { parse } from 'path';
-
 import type { RequestHandler } from '@sveltejs/kit';
 
 interface Post {
@@ -16,16 +14,15 @@ function dateSort(a: Post, b: Post) {
 }
 
 export const get: RequestHandler = async () => {
-	const modules = import.meta.glob('./**/*.md');
+	const modules = import.meta.glob('../blog/*.md');
 
 	const posts = [];
-
 
 	await Promise.all(
 		Object.entries(modules).map(async ([_, module]) => {
 			const { metadata } = await module();
 
-			posts.push(metadata)
+			posts.push(metadata);
 		})
 	);
 
