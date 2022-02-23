@@ -1,9 +1,9 @@
 <script context="module">
-	export function load({ page }) {
+	export function load({ url }) {
 		return {
 			props: {
 				// if we are on some root paths, we want the main heading to be big, otherwise super small
-				onRoot: page.path === '/' || page.path === '/blog'
+				onRoot: url.pathname === '/' || url.pathname === '/blog'
 			}
 		};
 	}

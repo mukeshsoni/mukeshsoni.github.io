@@ -1,7 +1,7 @@
 import { mdsvex } from 'mdsvex';
 import { mdsvexConfig } from './mdsvex.config.js';
 import preprocess from 'svelte-preprocess';
-import staticAdapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,7 +11,7 @@ const config = {
 	preprocess: [mdsvex(mdsvexConfig), preprocess()],
 
 	kit: {
-		adapter: staticAdapter({
+		adapter: adapter({
 			// default options are shown
 			pages: 'build',
 			assets: 'build',
