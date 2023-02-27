@@ -3,9 +3,13 @@ layout: blog
 title: What is nodejs?
 created: '2013-05-28'
 slug: '2013-05-28-what-is-nodejs'
+categories:
+  - 'nodejs'
+  - 'javascript'
 ---
 
 <svelte:head>
+
 <title>What is nodejs?</title>
 </svelte:head>
 

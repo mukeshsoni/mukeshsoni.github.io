@@ -2,9 +2,14 @@
 title: JavaScript Unit Testing - the WHY
 created: '2013-07-08'
 slug: '2013-07-08-javascript-unit-testing-the-why'
+categories:
+  - 'javascript'
+  - 'testing'
+  - 'unit testing'
 ---
 
 <svelte:head>
+
 <title>JavaScript Unit Testing - the WHY</title>
 </svelte:head>
 

@@ -2,9 +2,14 @@
 title: JavaScript Unit Testing - the HOW - Part I
 created: '2013-07-09'
 slug: '2013-07-09-javascript-unit-testing-the-how-part-I'
+categories:
+  - 'javascript'
+  - 'testing'
+  - 'unit testing'
 ---
 
 <svelte:head>
+
 <title>JavaScript Unit Testing - the HOW - Part I</title>
 </svelte:head>
 

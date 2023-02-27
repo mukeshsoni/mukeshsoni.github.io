@@ -1,3 +1,6 @@
+import { json } from '@sveltejs/kit';
+import { parse } from 'path';
+
 import type { RequestHandler } from '@sveltejs/kit';
 
 interface Post {
@@ -13,8 +16,8 @@ function dateSort(a: Post, b: Post) {
 	return new Date(b.created).getTime() - new Date(a.created).getTime();
 }
 
-export const get: RequestHandler = async () => {
-	const modules = import.meta.glob('../blog/*.md');
+export const GET: RequestHandler = async () => {
+	const modules = import.meta.glob('../../blog/**/*.md');
 
 	const posts = [];
 
@@ -29,9 +32,7 @@ export const get: RequestHandler = async () => {
 	// Newest first
 	posts.sort(dateSort);
 
-	return {
-		body: {
-			posts: posts
-		}
-	};
+	return json({
+		posts: posts
+	});
 };

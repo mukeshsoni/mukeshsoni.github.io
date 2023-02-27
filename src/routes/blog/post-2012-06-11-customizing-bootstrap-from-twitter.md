@@ -2,9 +2,13 @@
 title: Customizing Bootstrap from twitter
 created: '2012-06-11'
 slug: '2012-06-11-customizing-bootstrap-from-twitter'
+categories:
+  - 'bootstrap'
+  - 'css'
 ---
 
 <svelte:head>
+
 <title>Customizing Bootstrap from twitter</title>
 </svelte:head>
 

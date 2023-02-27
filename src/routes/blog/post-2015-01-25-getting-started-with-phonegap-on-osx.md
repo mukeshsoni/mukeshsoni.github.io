@@ -2,9 +2,13 @@
 title: Getting started with phonegap on OSX
 created: '2015-01-05'
 slug: '2015-01-25-getting-started-with-phonegap-on-osx'
+categories:
+  - 'phonegap'
+  - 'mobile'
 ---
 
 <svelte:head>
+
 <title>Getting started with phonegap on OSX</title>
 </svelte:head>
 

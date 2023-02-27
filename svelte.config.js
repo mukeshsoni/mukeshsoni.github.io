@@ -1,14 +1,31 @@
+import { vitePreprocess } from '@sveltejs/kit/vite';
 import { mdsvex } from 'mdsvex';
-import { mdsvexConfig } from './mdsvex.config.js';
-import preprocess from 'svelte-preprocess';
-import adapter from '@sveltejs/adapter-static';
+import rehypeSlug from 'rehype-slug';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import adapter from '@sveltejs/adapter-auto';
+
+const mdsvexExtensions = ['.md'];
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', ...mdsvexConfig.extensions],
-	// Consult https://github.com/sveltejs/svelte-preprocess
+	extensions: ['.svelte', ...mdsvexExtensions],
+	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [mdsvex(mdsvexConfig), preprocess()],
+	preprocess: [
+		vitePreprocess(),
+
+		mdsvex({
+			extensions: mdsvexExtensions,
+			// Adds IDs to headings, and anchor links to those IDs. Note: must stay in this order to work.
+			rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+			smartypants: {
+				dashes: 'oldschool'
+			},
+			layout: {
+				blog: './src/routes/blog/post_layout.svelte'
+			}
+		})
+	],
 
 	kit: {
 		adapter: adapter({
@@ -16,9 +33,7 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: null
-		}),
-		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		})
 	}
 };
 
