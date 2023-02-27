@@ -1,21 +1,11 @@
 <script context="module">
 	import { fade } from 'svelte/transition';
-
-	export function load({ url }) {
-		return {
-			props: {
-				// if we are on some root paths, we want the main heading to be big, otherwise super small
-				onRoot: url.pathname === '/' || url.pathname === '/blog'
-			}
-		};
-	}
 </script>
 
 <script lang="ts">
 	import type { PageData } from './$types';
 	import '../global.css';
 
-	export let onRoot = false;
 	export let data: PageData;
 </script>
 
@@ -25,7 +15,7 @@
 		in:fade={{ duration: 100, delay: 100 }}
 		out:fade={{ duration: 100 }}
 	>
-		<h1 class={onRoot ? 'logo logo-big' : 'logo logo-small'}>
+		<h1 class={data.onRoot ? 'logo logo-big' : 'logo logo-small'}>
 			<a class="header-link" href="/"> unstack.in </a>
 		</h1>
 

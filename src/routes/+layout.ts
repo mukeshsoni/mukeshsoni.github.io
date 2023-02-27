@@ -5,8 +5,10 @@ import type { PageLoad } from './$types';
 
 export const load = (({ url }) => {
 	const currentRoute = url.pathname;
+	const onRoot = url.pathname === '/' || url.pathname === '/blog';
 
 	return {
-		currentRoute
+		currentRoute,
+		onRoot
 	};
 }) satisfies PageLoad;
