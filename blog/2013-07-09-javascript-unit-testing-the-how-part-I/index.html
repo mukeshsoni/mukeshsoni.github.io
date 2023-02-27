@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/favicon.ico" />
+		<link href="/prism.css" rel="stylesheet" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>JavaScript Unit Testing - the HOW - Part I</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-8e799e71.css">
+	<link rel="modulepreload" href="/_app/start-4c00b007.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-ec91eb1f.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-acd728af.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.md-904bd3e5.js">
+	<link rel="modulepreload" href="/_app/chunks/BlogLayout-2f12ce4e.js">
+	<link rel="modulepreload" href="/_app/chunks/Bio-da710757.js">
+			<script type="module">
+				import { start } from "/_app/start-4c00b007.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"","assets":""},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/_app/pages/__layout.svelte-acd728af.js"),
+						import("/_app/pages/blog/2013-07-09-javascript-unit-testing-the-how-part-I.md-904bd3e5.js")
+						],
+						url: new URL("http://prerender/blog/2013-07-09-javascript-unit-testing-the-how-part-I"),
+						params: {}
+					}
+				});
+			</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<main style="max-width: 42rem;margin:auto"><h1 class="logo logo-small svelte-1tkco1r"><a class="header-link svelte-1tkco1r" href="/">unstack.in </a></h1>
+
+	
+<div class="post"><h2 style="margin-bottom: 0">JavaScript Unit Testing - the HOW - Part I</h2>
+<div class="date">2013-07-09</div>
+	<p>Testing javascript is a tricky affair. Mainly because you can’t directly run your javascript written for a browser us something like ‘js myjstest.js’ in the command line. Surely there are testing frameworks and task managers like grunt which finally enable you to do exactly that, but it’s a lot of plumbing to get going.
+The second reason it’s tough to test javascript is because of it’s async nature. Testing asynchronous functions is kind of a pain in the ass.</p>
+<p>There are a lot of helpful libraries to tame the beast. But we will not start with any framework/library. We will start with the basics which would also allow us to better appreciate the frameworks.</p>
+<p>Lets start with writing a very simple unit test (testing isolated pieces of code) for a very simple function.</p>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte">function add(x, y) <span class="token language-javascript"><span class="token punctuation">&#123;</span>
+  <span class="token keyword">return</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></span></code><!-- HTML_TAG_END --></pre>
+<p>How do we test the above. We want to verify that if we call add(3, 9), the function should return 12 and so on.</p>
+<p>One way we can do this is by putting the above function in a script tag in an html file, opening that file in a browser and then calling the ‘add’ function in the console.</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+	<span class="token keyword">return</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p><img src="/_app/assets/_console_add-7bd53041.jpeg" alt="Running the test in the browser"></p>
+<p>That is unit testing for you. The problem - it’s not “automated”.</p>
+<p>How can we automate it? The simplest way to do it would be to make the test calls in the same html and check their validity.</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">add</span><span class="token punctuation">(</span><span class="token parameter">x<span class="token punctuation">,</span> y</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">return</span> x <span class="token operator">+</span> y<span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token comment">// start test code</span>
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">7</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>adding <span class="token number">2</span> and <span class="token number">5</span> passed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>adding <span class="token number">2</span> and <span class="token number">5</span> failed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+
+<span class="token keyword">if</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">2</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>adding <span class="token operator">-</span><span class="token number">1</span> and <span class="token number">3</span> passed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span> <span class="token keyword">else</span> <span class="token punctuation">&#123;</span>
+  console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>adding <span class="token operator">-</span><span class="token number">1</span> and <span class="token number">3</span> failed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span>
+<span class="token comment">// end test code</span></code><!-- HTML_TAG_END --></pre>
+<p>We can do one better by putting the actual code and the test code in external files and link them in our html file.</p>
+<p>But our test code is so verbose and non reusable that this might be the last time we test anything. We even have to keep track of what we put in the console.log messages (e.g. a copy paste error would result in “adding 2 and 5 passed” twice).</p>
+<p>Assertions -
+All we wanted to do above was something like “i am telling you, 2+5 is equal to 7. If not, ask the function writer to repeat 2nd standard”. And this should happen is as less code as possible. Assertions allow you to do exactly that in just a single line. So you go something like -</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token function">assert</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span> <span class="token operator">===</span> <span class="token number">7</span><span class="token punctuation">,</span> <span class="token string">'learn your maths'</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>And the assert function should throw out pass and fail messages accordingly. Let’s try writing one -</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">assert</span><span class="token punctuation">(</span><span class="token parameter">expression<span class="token punctuation">,</span> message</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>expression<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message <span class="token operator">||</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>Test <span class="token keyword">case</span> failed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//if no fail message was passed by the function caller</span>
+  <span class="token punctuation">&#125;</span>
+
+  <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>Test <span class="token keyword">case</span> passed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>Now we can drop this function whenever we want to test stuff. In our case -</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token function">assert</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token operator">===</span><span class="token number">7</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>learn your maths<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">assert</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token operator">===</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>learn your maths<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token function">assert</span><span class="token punctuation">(</span><span class="token function">add</span><span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token operator">-</span><span class="token number">4</span><span class="token punctuation">)</span><span class="token operator">===</span><span class="token operator">-</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>learn your maths<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
+<p>We can go ahead and enhance the assert function to tell us the number of test cases which passed -</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">var</span> passedTestCount <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token keyword">function</span> <span class="token function">assert</span><span class="token punctuation">(</span><span class="token parameter">expression<span class="token punctuation">,</span> message</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>expression<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>message <span class="token operator">||</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>Test <span class="token keyword">case</span> failed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//if no fail message was passed by the function caller</span>
+  <span class="token punctuation">&#125;</span>
+
+  passedTestCount<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span><span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>Test <span class="token keyword">case</span> passed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>That is it. Not at all perfect but atleast we have a goto function for testing equality related stuff. In real world we will not print to the console in the assert function. Too much coupling there. The assert function will simply test whether the assertion is true or not. If not, raise an exception.</p>
+<pre class="language-javascript"><!-- HTML_TAG_START --><code class="language-javascript"><span class="token keyword">function</span> <span class="token function">assert</span><span class="token punctuation">(</span><span class="token parameter">expression<span class="token punctuation">,</span> message</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+  <span class="token keyword">if</span><span class="token punctuation">(</span><span class="token operator">!</span>expression<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
+    <span class="token keyword">throw</span> <span class="token keyword">new</span> <span class="token class-name">Error</span><span class="token punctuation">(</span>message <span class="token operator">||</span> <span class="token operator">&amp;</span>quot<span class="token punctuation">;</span>Test <span class="token keyword">case</span> failed<span class="token operator">&amp;</span>quot<span class="token punctuation">;</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">//if no fail message was passed by the function caller</span>
+  <span class="token punctuation">&#125;</span>
+
+  passedTestCount<span class="token operator">++</span><span class="token punctuation">;</span>
+  <span class="token keyword">return</span> <span class="token boolean">true</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span></code><!-- HTML_TAG_END --></pre>
+<p>If we want to be purist, we should also remove passedTestCount++ from assertion function. There is no reason for assertion function to deal with correct/incorrect assertion counts. But i will leave that to you.</p>
+<p>In the next article we will try to see how we can enhance our little testing framework (ok, just one function for now) to handle more complicated cases. Till then, adios!</p>
+	<br>
+	<a href="/">Browse more posts</a>
+	<hr>
+	<h3>About me</h3>
+	<div style="display: flex; margin-bottom: 3.5rem; flex-direction: column;"><div style="display: flex"><img src="/profile-pic.jpg" alt="Mukesh Soni" style="margin-right: 1rem; margin-bottom: 0; width: 56px; height: 56px">
+		<div><p style="margin-top: 0;">This is the personal blog of <strong>Mukesh Soni</strong>. I am a frontend engineer who&#39;s
+				exhausted trying to keep up with the new technologies in the frontend world. I am good at
+				JavaScript, HTML, CSS, React (ReactJS) and nodejs. I have been doing this stuff since 2011.
+			</p>
+			<p style="margin-top: 0">This blog was written in <a href="https://svelte.dev">svelte</a>, using
+				<a href="https://kit.svelte.dev/">svelte-kit</a>, even though i write reactjs in my day job.
+			</p></div></div>
+	<a style="text-decoration: none; box-shadow: none;" href="https://twitter.com/mukeshsoni">Follow me on Twitter
+	</a>
+	<a style="text-decoration: none; box-shadow: none;" href="https://github.com/mukeshsoni">Look at my open source work on github
+	</a></div></div>
+</main>
+
+</div>
+	</body>
+</html>
