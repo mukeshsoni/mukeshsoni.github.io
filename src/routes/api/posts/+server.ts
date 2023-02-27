@@ -16,10 +16,10 @@ function dateSort(a: Post, b: Post) {
 	return new Date(b.created).getTime() - new Date(a.created).getTime();
 }
 
-export const GET: RequestHandler = async () => {
-	const modules = import.meta.glob('../../blog/**/*.md');
+export const GET = (async () => {
+	const modules = import.meta.glob('../../blog/*.md');
 
-	const posts = [];
+	const posts: Array<Post> = [];
 
 	await Promise.all(
 		Object.entries(modules).map(async ([_, module]) => {
@@ -35,4 +35,4 @@ export const GET: RequestHandler = async () => {
 	return json({
 		posts: posts
 	});
-};
+}) satisfies RequestHandler;
