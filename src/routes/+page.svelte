@@ -32,6 +32,3 @@
 		</ul>
 	</div>
 </div>
-
-<h1>Welcome to SvelteKitttt</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> aato read the documentation</p>
