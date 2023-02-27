@@ -1,5 +1,4 @@
 import { json } from '@sveltejs/kit';
-import { parse } from 'path';
 
 import type { RequestHandler } from '@sveltejs/kit';
 

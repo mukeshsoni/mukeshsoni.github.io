@@ -17,7 +17,7 @@
 	<div>
 		<h2>Blog posts</h2>
 		<ul class="posts">
-			{#each data.props.posts as post}
+			{#each data.posts as post}
 				<li>
 					<a rel="prefetch" href="blog/{post.slug}">
 						<h2>

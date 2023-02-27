@@ -1,4 +1,6 @@
 <script context="module">
+	import { fade } from 'svelte/transition';
+
 	export function load({ url }) {
 		return {
 			props: {
@@ -9,18 +11,27 @@
 	}
 </script>
 
-<script>
+<script lang="ts">
+	import type { PageData } from './$types';
 	import '../global.css';
+
 	export let onRoot = false;
+	export let data: PageData;
 </script>
 
-<main style="max-width: 42rem;margin:auto">
-	<h1 class={onRoot ? 'logo logo-big' : 'logo logo-small'}>
-		<a class="header-link" href="/"> unstack.in </a>
-	</h1>
+{#key data.currentRoute}
+	<main
+		style="max-width: 42rem;margin:auto"
+		in:fade={{ duration: 100, delay: 100 }}
+		out:fade={{ duration: 100 }}
+	>
+		<h1 class={onRoot ? 'logo logo-big' : 'logo logo-small'}>
+			<a class="header-link" href="/"> unstack.in </a>
+		</h1>
 
-	<slot />
-</main>
+		<slot />
+	</main>
+{/key}
 
 <style>
 	.header-link {
