@@ -20,7 +20,6 @@
 		"rehype-autolink-headings": "^6.1.1",
 		"rehype-slug": "^5.1.0",
 		"remark-abbr": "^1.4.1",
-		"remark-github": "^10.1.0",
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"tslib": "^2.4.1",
