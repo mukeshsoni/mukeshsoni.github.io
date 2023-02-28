@@ -8,17 +8,17 @@
 
 		<meta http-equiv="content-security-policy" content="">
 		<link href="../_app/immutable/assets/_layout.09ee91f1.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.3e3fa877.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.298e2911.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/index.bc8fed38.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.e519797a.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.fba4b87d.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/singletons.cc01d98b.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.bb72911d.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/preload-helper.41c905a7.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/_layout.svelte.9797adbe.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/_layout.ts.34363208.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/_layout.c7a3ca83.js">
 		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.svelte.acdc8f4a.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.ts.cfbcc6cb.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/_page.f42fdf4b.js"><title>Make a blog with svelte kit and host on github (Updated on Feb 7 - 2023)</title><!-- HEAD_svelte-b5ev1l_START --><!-- HEAD_svelte-b5ev1l_END -->
+		<link rel="modulepreload" href="../_app/immutable/entry/blog-_slug_-page.ts.617a7587.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/_page.129fedf9.js"><title>Make a blog with svelte kit and host on github (Updated on Feb 7 - 2023)</title><!-- HEAD_svelte-b5ev1l_START --><!-- HEAD_svelte-b5ev1l_END -->
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -155,7 +155,7 @@ slug: &#39;2021-05-81-make-blog-with-sveltekit&#39;
 <p>You can then render whatever metadata you want to.</p>
 <pre class="language-html"><!-- HTML_TAG_START --><code class="language-html">&#123;#each posts as post&#125;
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span><span class="token punctuation">></span></span>
-	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>prefetch<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>blog/&#123;post.metadata.slug&#125;<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/blog/&#123;post.metadata.slug&#125;<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
 		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h2</span><span class="token punctuation">></span></span>&#123;post.metadata.title&#125;<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h2</span><span class="token punctuation">></span></span>
 	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span>
@@ -251,18 +251,21 @@ slug: &#39;2021-05-81-make-blog-with-sveltekit&#39;
 
 <span class="token keyword">export</span> <span class="token keyword">const</span> load <span class="token operator">=</span> <span class="token punctuation">(</span><span class="token keyword">async</span> <span class="token punctuation">(</span><span class="token punctuation">&#123;</span> params <span class="token punctuation">&#125;</span><span class="token punctuation">)</span> <span class="token operator">=></span> <span class="token punctuation">&#123;</span>
 	<span class="token keyword">const</span> <span class="token punctuation">&#123;</span> slug <span class="token punctuation">&#125;</span> <span class="token operator">=</span> params<span class="token punctuation">;</span>
-	<span class="token keyword">try</span> <span class="token punctuation">&#123;</span>
-		<span class="token keyword">const</span> post <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">/src/routes/blog/post-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>slug<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">.md</span><span class="token template-punctuation string">&#96;</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-		<span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
-			content<span class="token operator">:</span> post<span class="token punctuation">.</span>default
-		<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-	<span class="token punctuation">&#125;</span> <span class="token keyword">catch</span> <span class="token punctuation">(</span>e<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-		<span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
-			error<span class="token operator">:</span> <span class="token string">'Could not load page'</span>
-		<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
-	<span class="token punctuation">&#125;</span>
+	<span class="token comment">// try &#123;</span>
+	<span class="token keyword">const</span> post <span class="token operator">=</span> <span class="token keyword">await</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token template-string"><span class="token template-punctuation string">&#96;</span><span class="token string">/src/routes/blog/post-</span><span class="token interpolation"><span class="token interpolation-punctuation punctuation">$&#123;</span>slug<span class="token interpolation-punctuation punctuation">&#125;</span></span><span class="token string">.md</span><span class="token template-punctuation string">&#96;</span></span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token keyword">return</span> <span class="token punctuation">&#123;</span>
+		content<span class="token operator">:</span> post<span class="token punctuation">.</span>default
+	<span class="token punctuation">&#125;</span><span class="token punctuation">;</span>
+	<span class="token comment">// &#125; catch (e) &#123;</span>
+	<span class="token comment">// 	return &#123;</span>
+	<span class="token comment">// 		error: 'Could not load page'</span>
+	<span class="token comment">// 	&#125;;</span>
+	<span class="token comment">// &#125;</span>
 <span class="token punctuation">&#125;</span><span class="token punctuation">)</span> satisfies PageLoad<span class="token punctuation">;</span></code><!-- HTML_TAG_END --></pre>
 <p>We use <code>import</code> to import the intended blog post. If we don’t file it in our file system, we return an error and hopefully also render an error page.</p>
+<p>A few things to note above -</p>
+<ul><li>One very weird thing happened when i had the <code>import</code> for the <code>md</code> file for the <code>slug</code> inside a try-catch block. The <code>adapter-static</code> could not figure out that it needed to prerender the <code>md</code> file and would try to load the <code>md</code> file from the route with a <code>GET</code> request. That would fail with a 404 http code. I removed the try-catch as seen in code above, and adapter-static started doing it’s work perfectly.</li>
+<li>You will see in the above import is that i have a <code>post-</code> prefix before the <code>${slug}.md</code> part of the file name for the blog post. We need that because otherwise vite complains that it’s not able to resolve the dynamic import. It needs some prefix to narrow down the list of files to look at inside the folder.</li></ul>
 <p>When use use <code>import</code> to get our <code>md</code> file, it is automatically passed through <code>mdsvex</code> which then returns a svelte component for the imported <code>md</code> file. We return that svelte component as <code>content</code> property from whatever object is returned from <code>load</code> function. This <code>svelte</code> component returned by <code>import</code> cannot be render directly. We need to use <code>&lt;svelte:compoennt&gt;</code> directive to render a svelte component dynamically.</p>
 <p>We do that inside <code>src/blog/[slug]/+page.svelte</code> file -</p>
 <pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
@@ -343,7 +346,7 @@ npx serve</code><!-- HTML_TAG_END --></pre>
 			
 			<script>
 				{
-					__sveltekit_tqfc1o = {
+					__sveltekit_d3b8lu = {
 						env: {},
 						assets: new URL("..", location.href).pathname.replace(/^\/$/, ''),
 						element: document.currentScript.parentElement
@@ -352,10 +355,10 @@ npx serve</code><!-- HTML_TAG_END --></pre>
 					const data = [null,null];
 
 					Promise.all([
-						import("../_app/immutable/entry/start.3e3fa877.js"),
-						import("../_app/immutable/entry/app.fba4b87d.js")
+						import("../_app/immutable/entry/start.298e2911.js"),
+						import("../_app/immutable/entry/app.bb72911d.js")
 					]).then(([kit, app]) => {
-						kit.start(app, __sveltekit_tqfc1o.element, {
+						kit.start(app, __sveltekit_d3b8lu.element, {
 							node_ids: [0, 3],
 							data,
 							form: null,
