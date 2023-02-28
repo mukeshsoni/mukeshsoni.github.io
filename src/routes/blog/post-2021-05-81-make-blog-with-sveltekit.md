@@ -188,7 +188,7 @@ You can then render whatever metadata you want to.
 ```html
 {#each posts as post}
 <li>
-	<a rel="prefetch" href="blog/{post.metadata.slug}">
+	<a href="/blog/{post.metadata.slug}">
 		<h2>{post.metadata.title}</h2>
 	</a>
 </li>
@@ -327,20 +327,25 @@ import type { PageLoad } from './$types';
 
 export const load = (async ({ params }) => {
 	const { slug } = params;
-	try {
-		const post = await import(`/src/routes/blog/post-${slug}.md`);
-		return {
-			content: post.default
-		};
-	} catch (e) {
-		return {
-			error: 'Could not load page'
-		};
-	}
+	// try {
+	const post = await import(`/src/routes/blog/post-${slug}.md`);
+	return {
+		content: post.default
+	};
+	// } catch (e) {
+	// 	return {
+	// 		error: 'Could not load page'
+	// 	};
+	// }
 }) satisfies PageLoad;
 ```
 
 We use `import` to import the intended blog post. If we don't file it in our file system, we return an error and hopefully also render an error page.
+
+A few things to note above -
+
+- One very weird thing happened when i had the `import` for the `md` file for the `slug` inside a try-catch block. The `adapter-static` could not figure out that it needed to prerender the `md` file and would try to load the `md` file from the route with a `GET` request. That would fail with a 404 http code. I removed the try-catch as seen in code above, and adapter-static started doing it's work perfectly.
+- You will see in the above import is that i have a `post-` prefix before the `${slug}.md` part of the file name for the blog post. We need that because otherwise vite complains that it's not able to resolve the dynamic import. It needs some prefix to narrow down the list of files to look at inside the folder.
 
 When use use `import` to get our `md` file, it is automatically passed through `mdsvex` which then returns a svelte component for the imported `md` file. We return that svelte component as `content` property from whatever object is returned from `load` function. This `svelte` component returned by `import` cannot be render directly. We need to use `<svelte:compoennt>` directive to render a svelte component dynamically.
 
