@@ -19,7 +19,7 @@
 		<ul class="posts">
 			{#each data.posts as post}
 				<li>
-					<a rel="prefetch" href="blog/{post.slug}">
+					<a href="/blog/{post.slug}">
 						<h2>
 							{post.title}
 						</h2>
