@@ -105,7 +105,7 @@ cargo run 2 3
 
 Let's build the same application using a library called [`clap`](https://docs.rs/clap/latest/clap/), which helps with a lot more than just parsing the arguments.
 
-We will use `cargo-edit` to add the library instead of directly editing `Cargo.toml` file.
+We will use [`cargo-edit`](https://github.com/killercup/cargo-edit) to add the library instead of directly editing `Cargo.toml` file.
 
 ```bash
 cargo add clap --feature derive
