@@ -11,7 +11,7 @@
 
 {#key data.currentRoute}
 	<main
-		style="max-width: 42rem;margin:auto"
+		style="max-width: 52rem;margin:auto"
 		in:fade={{ duration: 100, delay: 100 }}
 		out:fade={{ duration: 100 }}
 	>
