@@ -14,37 +14,37 @@ categories:
 
 Install phonegap using npm
 
-```
+```bash
 npm install -g phonegap
 ```
 
 Check if phonegap is install properly
 
-```
+```bash
 phonegap -v
 ```
 
 Want a quick overview of what you can do with phonegap command line tool?
 
-```
+```bash
 phonegap -h
 ```
 
 Now lets create a new phonegap project. The phonegap command itself takes subcommands to do stuff. To create a new project we use
 
-```
+```bash
 phonegap create <folder> -n <appname> -i <packagename>
 ```
 
 To see the options available while creating a new project, simply ask for help
 
-```
+```bash
 phonegap create help
 ```
 
 This is true for getting help on any of the sub commands. Let's create a new project -
 
-```
+```bash
 phonegap create awesome_app -n AwesomeApp -i com.example.awesomeapp
 ```
 
@@ -52,7 +52,7 @@ The folder awesome_app should be empty.
 
 Now it's time to see our newly created app in action. Let's move to the directory and build the app for the required platform (android, iphone etc)
 
-```
+```bash
 cd awesome_app
 phonegap build android
 phonegap install android
@@ -60,7 +60,7 @@ phonegap install android
 
 Phonegap has a single sub command which combines the last two sub commands (build and install) -
 
-```
+```bash
 phonegap run android
 ```
 
@@ -69,7 +69,7 @@ _
 
 Now you should have see the default phonegap application on the android simulator. You can connect an android phone and run the application on the device using this command -
 
-```
+```bash
 phonegap run android --device
 ```
 

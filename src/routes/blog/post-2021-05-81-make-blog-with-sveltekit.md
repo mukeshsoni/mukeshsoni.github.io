@@ -165,7 +165,7 @@ post metadata is resolved before the final output is produced.
 
 Now, posts should have the list of posts with their metadata, as defined by you at the top of each post. E.g. If you have this at the top of a post -
 
-```
+```md
 ---
 title: Make a blog with svelte kit and host on github
 date: '2021-05-18'
