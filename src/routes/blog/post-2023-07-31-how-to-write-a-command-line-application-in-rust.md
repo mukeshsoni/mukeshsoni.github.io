@@ -5,6 +5,9 @@ slug: '2023-07-31-how-to-write-a-command-line-application-in-rust'
 categories:
   - 'rust'
   - 'beginner'
+  - 'command line application'
+  - 'cli'
+  - 'clap'
 ---
 
 <svelte:head>
