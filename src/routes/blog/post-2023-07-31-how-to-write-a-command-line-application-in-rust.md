@@ -167,4 +167,4 @@ error: invalid value 'three' for '<NUM2>': invalid digit found in string
 For more information, try '--help'.
 ```
 
-Of course `clap` provides much more than this.
+Of course `clap` provides much more than this. Head over to `clap's` crate page for details on how cool it is - https://docs.rs/clap/latest/clap/.
