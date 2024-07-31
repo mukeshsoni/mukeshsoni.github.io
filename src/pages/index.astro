@@ -1,0 +1,60 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <Header />
+        <main>
+            <div style="display: flex">
+                <img
+                    src="/profile-pic.jpg"
+                    alt="Mukesh Soni"
+                    style="margin-right: 1rem; margin-bottom: 0; width: 56px; height: 56px"
+                />
+                <h1>Hello, Surfer!</h1>
+            </div>
+            <div>
+                <p style="margin-top: 0;">
+                    This is the personal blog of <strong>Mukesh Soni</strong>. I
+                    am a frontend engineer who's exhausted trying to keep up
+                    with the new technologies in the frontend world. I am good
+                    at TypeScript, JavaScript, HTML, CSS, React (ReactJS) and
+                    nodejs. I have been doing this stuff since 2011.
+                </p>
+                <p>I am also an average rust programmer.</p>
+                <p>
+                    I think a lot of beginner programmers interpret the phrase
+                    "premature optimization" in the wrong way. Performance rules
+                    and is the USP of so many great products.
+                </p>
+                <p style="margin-top: 0">
+                    This blog was written using
+                    <a href="https://astro.build/">astro</a>.
+                </p>
+                <div>
+                    <a
+                        style="text-decoration: none; box-shadow: none; display: block"
+                        href="https://twitter.com/mukeshsoni"
+                    >
+                        Follow me on Twitter
+                    </a>
+                    <a
+                        style="text-decoration: none; box-shadow: none;"
+                        href="https://github.com/mukeshsoni"
+                    >
+                        Look at my open source work on github
+                    </a>
+                </div>
+            </div>
+        </main>
+        <Footer />
+    </body>
+</html>
