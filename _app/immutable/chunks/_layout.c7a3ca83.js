@@ -1,1 +1,0 @@
-const r=!0,n=({url:e})=>{const t=e.pathname,o=e.pathname==="/"||e.pathname==="/blog";return{currentRoute:t,onRoot:o}},a=Object.freeze(Object.defineProperty({__proto__:null,load:n,prerender:!0},Symbol.toStringTag,{value:"Module"}));export{a as _,n as l,r as p};
