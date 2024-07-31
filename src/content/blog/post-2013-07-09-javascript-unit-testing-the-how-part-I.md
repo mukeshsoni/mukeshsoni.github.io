@@ -4,10 +4,6 @@ description: 'How to write tests for your javascript code?'
 pubDate: 'Jul 09 2013'
 ---
 
-<script>
-import consoleAddImage from './_console_add.jpeg';
-</script>
-
 Testing javascript is a tricky affair. Mainly because you can't directly run your javascript written for a browser us something like 'js myjstest.js' in the command line. Surely there are testing frameworks and task managers like grunt which finally enable you to do exactly that, but it's a lot of plumbing to get going.
 The second reason it's tough to test javascript is because of it's async nature. Testing asynchronous functions is kind of a pain in the ass.
 
@@ -30,8 +26,6 @@ function add(x, y) {
 	return x + y;
 }
 ```
-
-![Running the test in the browser]({consoleAddImage})
 
 That is unit testing for you. The problem - it's not "automated".
 
