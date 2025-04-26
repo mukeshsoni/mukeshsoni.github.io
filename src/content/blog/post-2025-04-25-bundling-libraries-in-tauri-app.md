@@ -2,6 +2,8 @@
 title: 'Bundling external libraries in Tauri App - for MacOS'
 description: 'How to bundle dynamically linked libraries in a Tauri app. On macOS.'
 pubDate: 'April 25 2025'
+cover: '../../images/bundling-external-libraries-with-a-tauri-app.png'
+coverAlt: 'Bundling external libraries with a Tauri app'
 ---
 
 [Tauri](https://v2.tauri.app/) is a framework for building desktop applications. Sometimes you need some functionality for which you access some library on your system.
@@ -9,6 +11,7 @@ You do not want the users of your app to install those libraries separately. You
 
 I was building a desktop application which used a rust crate called [rexiv2](https://crates.io/crates/rexiv2/0.10.0). `rexiv2` in turn depended on another crate named `gexiv2-sys`. And `gexiv2-sys` was simply provided FFI declarations for `gexiv2` library, which is a GObject-based wrapper around another library called `exiv2`. Which means, using `rexiv2` assumed that i had `gexiv2` and `exiv2` libraries installed on my system.
 
+![Dynamic libraries dependency tree](../../images/bundling-external-libraries-with-a-tauri-app.png)
 Installing `gexiv2` and `exiv2` on my mac was straight forward. I used `brew` to install them. But i couldn't expect all users of my app to have `gexiv2` and `exiv2` installed on their system. So i had to bundle them with my app.
 
 ## Bundling Libraries
