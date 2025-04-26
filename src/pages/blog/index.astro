@@ -76,7 +76,6 @@ const posts = (await getCollection("blog")).sort(
                         posts.map((post) => (
                             <li>
                                 <a href={`/blog/${post.slug}/`}>
-                                    {post.data.cover && <Image src={post.data.cover} alt={post.data.coverAlt || 'abc'} width={450}/>}
                                     <h5 class="title">{post.data.title}</h5>
                                     <p class="date">
                                         <FormattedDate
