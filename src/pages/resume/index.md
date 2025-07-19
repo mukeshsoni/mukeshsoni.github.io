@@ -16,21 +16,34 @@ I always keep performance in mind when building websites. It's become harder and
 
 My technology of choice when building sites is html, css, javascript, typescript, reactjs, and nodejs.
 
-I like the ideas behind functional programming and try to use them as much as possible in my own code. Immutability rules. I have dabbled a bit in purely functional programming languages like Elm and Haskell.
+I also dabble with rust projects in my free time. I built an image management desktop app in rust - [Viroop](https://viroop.com).
 
 I like writing open source code code in my free time. Some of my personal work can be found on github - [https://github.com/mukeshsoni](https://github.com/mukeshsoni).
 
 #### Work experience
 
-#### Planview - Projectplace (Dec 2020 - Present)
+#### Freelance (Nov 2024 - Present)
 
+- Work at Empowerreg
+  - Setup a playground environment for the application so that users didn't need to login to try it out [playground.empowerreg.ai](https://playground.empowerreg.ai). Tech used - docker, nginx, go, Azure.
+  - Introduced Elasticsearch for running analytics queries over adverse events data in the medical devices industry
+  - Setup docker based deployment for the application
+  - Setup end-to-end test framework with playwright. Runs on Github CI on PRs.
+  - Built various features of the applciation
+    - Product hub, gudid db search interface, complaint management system (initial)
+  - Introduced react-query
+- Built [Viroop](https://viroop.com) - a desktop application to manage all kinds of images (including RAW images from various camera makers). I personally moved from Lightroom to Viroop for my photos. Tech used - rust, typescript, react, sqlite, tauri
+
+#### Planview - Projectplace (Dec 2020 - Nov 2024)
+
+- Built a collaborative drawing tool on top of excalidraw. The tool is used extensively by Planview customers as well as Planview employees.
+- Architected the frontend for an application (called Logbook) which was then used within various products inside Planview
 - Helped move our custom backbone based routing and multiple react trees to react-router based routing
-- Reduced webpack watch mode incremental build times from around 15 seconds to under 1
-  second
+- Replaced webpack with rspack to reduce build times by 7x
+- Reduced webpack watch mode incremental build times from around 15 seconds to under 1 second
 - Introduced model based testing with models written in xstate
 - Coded UI for multiple new tools and converted old tools to new UI/UX
-- CI/CD changes to make PR merges more secure by running unit/integration tests
-  on every merge
+- CI/CD changes to make PR merges more secure by running unit/integration tests on every merge
 
 #### Bipp (Aug 2020 - Nov 2020)
 
